@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <title>ZOBAAA! | 使用者頁面</title>
+    <link rel="stylesheet" crossorigin href="/ZOBAAA/assets/all-CFxGHIoe.css">
+  </head>
+  <body>
+    <!-- Modal -->
+<div
+  class="modal fade"
+  id="login-modal"
+  tabindex="-1"
+  aria-labelledby="login-modal"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-fullscreen">
+    <div
+      class="modal-content justify-content-center container-fluid p-6 p-lg-7"
+    >
+      <div
+        class="login-cover-group d-flex justify-content-between align-items-center"
+      >
+        <div class="swiper d-none d-lg-flex me-6">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide overflow-hidden">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/login/cover-1.png?raw=true"
+                alt="login-cover-1"
+                class="z-n1"
+              />
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/bg-%23.svg"
+                alt=""
+                class="login-pound position-absolute top-0 start-0"
+              />
+              <div class="login-title position-absolute bottom-0 start-0">
+                <h2 class="fw-bold text-primary-60"># ZOBAAAAA !</h2>
+                <h3 class="fw-bold fs-lg-1">把旅行變成，</h3>
+                <h3 class="fw-bold fs-lg-1">生活的養分。</h3>
+              </div>
+            </div>
+            <div class="swiper-slide overflow-hidden">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/map-5.png?raw=true"
+                alt="login-cover-2"
+                class="z-n1"
+              />
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/bg-%23.svg"
+                alt=""
+                class="login-pound position-absolute top-0 start-0"
+              />
+              <div class="login-title position-absolute bottom-0 start-0">
+                <h2 class="fw-bold text-primary-60"># ZOBAAAAA !</h2>
+                <h3 class="fw-bold fs-lg-1">把旅行變成，</h3>
+                <h3 class="fw-bold fs-lg-1">生活的養分。</h3>
+              </div>
+            </div>
+            <div class="swiper-slide overflow-hidden">
+              <img
+                src="https://images.pexels.com/photos/33286778/pexels-photo-33286778.jpeg"
+                alt="login-cover-3"
+                class="z-n1"
+              />
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/bg-%23.svg"
+                alt=""
+                class="login-pound position-absolute top-0 start-0"
+              />
+              <div class="login-title position-absolute bottom-0 start-0">
+                <h2 class="fw-bold text-primary-60"># ZOBAAAAA !</h2>
+                <h3 class="fw-bold fs-lg-1">把旅行變成，</h3>
+                <h3 class="fw-bold fs-lg-1">生活的養分。</h3>
+              </div>
+            </div>
+          </div>
+          <div class="login-pagination swiper-pagination"></div>
+        </div>
+        <div class="login-form">
+          <div class="form-content">
+            <h3
+              class="fs-lg-1 fs-2 fw-bold mb-6 mb-lg-7"
+              aria-labelledby="loginModalLabel"
+            >
+              歡迎回來！
+            </h3>
+            <ul class="list-unstyled mb-7">
+              <li class="mb-2 mb-lg-4 position-relative">
+                <a
+                  class="w-100 btn btn-white border-neutral-40 d-flex justify-content-center text-neutral-80 p-4"
+                  href="#"
+                >
+                  使用 Google 帳號登入
+                </a>
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARsSURBVHgB7ZnPbxNHFMe/s1lCoFXlVP0RyoHlgtRfEOihqqDKurdUSHU4toc64tBbY6SWQy+xDz30h4Qj9VJVqvIHtMRBEUdifgi4oBhy4QKsAGEQSDgQhx+2d3izcSDJzu7OrjcxCH+k0dqzM7PvvX0z780s0KHD6w1DTPB9MMHRTyMOUOmnqkSzCCp0z6KrKBepFNkZFBEDLSnATRKwjhEaJYMXwqpiUSmihhw77/yORCQFHMEbGKWfGcTDeFRFQivA95LQmiN8WIsHYZFRcuwsKROCUArwL3EE8Vnd4yHI0vzIqTZXUqDp6xPU2sT6MMROo6DSUFNphF42vW7CM3IjReEFgQo4bnOP92M9EMKfQjZMF18FSPg0wvl8RQhBfpykVWU7WZKJgi70OnUcY/TPkvaMIPxiNw/I7w3YmKaHGgjGonbDqsHJMQyjlWxp7IjCL3b1esigNo55+3sESkNW1WnlKJL1Q9CMJXnxRqIKL5AqwKd7DGj8Gk7UgRMNv965Vh4eBx5zwM46l6904ACVhERPsny7hRfIFdDYwPPfe7qAgxtAU3J5C0u4DV4CXAqQ+5h0MVZU9pLwB7vpjXQt/hchP6TPrxW6u8o2Pee2cKkdmsW+q43jJUGiAPMPWh9okwjBlsOXOGKAC7dlKN7+befw8nq3Ahq2+Y6EhnKYjxMm3Jq70xnJJOYGfHmzhHbB3Sm8RAHmm+ezZKV9k5cpKfBqIXMhXws7UbpdcPfS7VaAszn4UjfQLhizVldJFEDAJNVMtA3bZVxJHHBS4m8k9bhjb8Jf1U9GgDNZKFL+fafyvnvL4YvXyMyG130Od7ouW4Wkb2C2/jZ+efA5SrV3El//n0ojZvp+nkn7Ce+g2cXVVfJ0+mT3/eXL6bHHBv5Z+PDFfYqKVWB3cagQy5KayMwkNnVrMwEKWPQ2t6+ulC+jtjYmLlWu49eHe1YILxBR8Q04Ryyx0KNr+SDrMybf7XnEgZ781fpb+HFuH87X3pcPCKT3T6RG0SJ9P82OMo0F7vxs1sh5yCEnPTmYv2dvHEEA5E55cqdcWHcyJ1KJ67M/HHk0vzUd1JasP35rVRK3hGckrtgbswzBOT+1yZA7zYSZ2IP/pVKiz0ef/p1+r+9c0PgVL+s373szOrU3c6H2rrKvi8nNOSa1BgrzOkpLbyU1kTLqdcomdYidnusk+9aNJMo3k/JBbX6o/OeuPKIoINh/NCVODgJdqVXulL/ATWtwZSXnY+U/dvmeSykFGZqs03QxscYsLPThyuVv8fRJQghfelSzk5X8bl83VspGKVwPbdWra74P2Lz5NnZ8/C90vXpSRXhBqOP19XAnm45rjh8oKB9nhtoPTNHApPEwQ/RPQl6I1eazDXcPhRG+2S88zqpCHyKod/DRowLC6t0M2UKE1KSlj3xLilCgGeBQOgRe/uAK9Rmj+ZUvtJBTxfaZlVYqk06zTVKmXyhD1228ud47wYhjjvy1JI5GqL40NVQookOHDi3zDI6xaRkMjqvUAAAAAElFTkSuQmCC"
+                  alt="login-icon"
+                  class="login-icon position-absolute top-50 start-0 translate-middle-y ms-4"
+                />
+              </li>
+              <li class="mb-2 mb-lg-4 position-relative">
+                <a
+                  class="w-100 btn btn-white border-neutral-40 d-flex justify-content-center text-neutral-80 p-4"
+                  href="#"
+                >
+                  使用 Facebook 帳號登入
+                </a>
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAILSURBVHgB7Zo/SAJRHMe/nmURBkYG1dAf6A8EQVFTUTmFbVEtUUNORRDm2F401hQ12RZtUUNjUTTnFkVDLSVlJKiHit51Tzix1NP0uueL9wG5e7+T4324937vd9wDGMeU2XBMe23xarFDMAs2VChV0Vrf5YkrqLbTAqPze+uCSdgBA0hJyXNzvLpLzlMCjiWvLRmPfYIhzGJNA3kSAmkkEtEBMAYZ6uQogFHUecqsgArzAlWgSFd7Y+rXYq9Px0JiDGExjnAkDt/dq3Ie07wHFYE5Zz+mxnvRrXReC/fmKW4VCS0MFbDW1WDLM4nBvlbohaFzYGNlQtfOEwwTcI71YGyoE3pjmIBrdhh/gSFzoKvNjpames3/+AMh+N9D32IkGxXCEIHmJqvmdffmmZJtXlAKhgwhrXR5fnVfcucJ1Ffix+cPlAN1gXAkhnLgxRxteDWaCaks1xZHsuLNGmvA3FQ/nEphlwv31hkKoasAKdZ+W+t0t9tzxguV0SoVO4SKTa8VKxCK8CdAl5+FXT4qVyBQnICuWcinFGXjCwdZcdfMUN73ge39C5xfP6BU+EpMGy5AGy5AGy5AGy5AGy5Am/8hIEnmIBglJWCxVD+BMciWA3JMCVweuoKQTR6wgix51P0S6Rea66PlXce09zBh1f+rvUnOf+0tEIEsyCgGSZKCFrHuKXOzB/N8ARqylS1NA//nAAAAAElFTkSuQmCC"
+                  alt="login-icon"
+                  class="login-icon position-absolute top-50 start-0 translate-middle-y ms-4"
+                />
+              </li>
+              <li class="mb-2 mb-lg-4 position-relative">
+                <a
+                  class="w-100 btn btn-white border-neutral-40 d-flex justify-content-center text-neutral-80 p-4"
+                  href="#"
+                >
+                  使用 Apple 帳號登入
+                </a>
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAH5SURBVHgB7ZrNTcNAEIU/4MIxHbAlQAX4yi0luANCBUkHQAWhA6CChArCkZtNBYEKjEd2lBDstTe79sQSn/SkKNpV3ox39s+Bf3Q5QYdRrttcUfn5igExybXOlZVKGAiS6QVb4xstGQhV5kUPDIAp1eZFhiPHUG9+zgCYUW1eitcwAFb8NS+z0CUDoSrzgzEv7GZ9RjGdBsN3JR6xNfRVap8oV1pqF8PvGniv6R8cMSzTYtXYlu9i6oszopj311QXdlN/byaWH9/Xc2lmTH3AdUrKvsGo2wZ0rSmBcMler0Gc0sw9utPeNx4Y9DIfZLF7ArQCGOOJAbTMzwlADGRKMgTgBdAwP8cB2yx0gQ5vLo1tARh0SF0a2wIIumt0IHVp3GYh6xvj0tgWQC9b2wqMS2NbAF5LuAfXBEJrGpUtROv6sz2BFB3E/IQAxOg8gY28N3IjQDOAhABr0QLIFCX1EOPBDMiOQCsORHsYNQbQtBLLYrZEn0c8iNDNfkIAFkCmpJgAGEDDfNJk7Ix2SC3IPWpEv9xR3JkGY0F/2e/k3Zmh/d2o79Dp7EAVQefmDS1pWwO7pLk+ab54kjavpeSgLueLc+yZlVq7yfVBDxiKbO1mT4aXnCMiS7+YYnHcz/ySAzZvIf4rEZU/nOL2lkWexGbL3NvbmaPjB3lPyOoJR6OtAAAAAElFTkSuQmCC"
+                  alt="login-icon"
+                  class="login-icon position-absolute top-50 start-0 translate-middle-y ms-4"
+                />
+              </li>
+            </ul>
+            <div>
+              <h5 class="fs-7 fw-bold mb-4">或使用 ZOBAA 帳號登入</h5>
+              <form action="">
+                <div class="mb-4">
+                  <label for="loginEmail" class="form-label"
+                    >電子信箱<span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="loginEmail"
+                    placeholder="請輸入電子信箱"
+                    required
+                  />
+                </div>
+                <div class="mb-4">
+                  <label for="loginPassword" class="form-label"
+                    >密碼<span class="text-danger">*</span></label
+                  >
+                  <div class="position-relative mb-2">
+                    <input
+                      type="password"
+                      class="form-control password-input"
+                      id="loginPassword"
+                      placeholder="請輸入密碼"
+                      required
+                    />
+                    <button
+                      type="button"
+                      class="password-eye position-absolute top-50 end-0 translate-middle-y fs-5 d-none"
+                    >
+                      <i class="bi bi-eye"></i>
+                    </button>
+                  </div>
+                  <div class="d-flex justify-content-between mb-7">
+                    <div class="form-check d-flex align-items-center">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="loginRemember"
+                      />
+                      <label class="ms-2 form-check-label" for="loginRemember">
+                        記住帳號
+                      </label>
+                    </div>
+                    <a
+                      class="text-neutral-80"
+                      data-bs-toggle="modal"
+                      data-bs-target="#login-modal2"
+                      data-bs-dismiss="modal"
+                      >忘記密碼？</a
+                    >
+                  </div>
+                  <button
+                    type="submit"
+                    class="btn btn-neutral-40 w-100 fw-semibold text-neutral-60 py-4 text-center mb-6 mb-lg-7"
+                  >
+                    立即登入
+                  </button>
+                  <div class="d-flex">
+                    <p class="text-neutral-80 me-2">沒有 ZOBAA 帳號嗎？</p>
+                    <a
+                      class="text-primary text-decoration-underline fw-bold"
+                      data-bs-toggle="modal"
+                      data-bs-target="#login-modal2"
+                      data-bs-dismiss="modal"
+                      >立即註冊</a
+                    >
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div
+  class="modal fade"
+  id="login-modal2"
+  tabindex="-1"
+  aria-labelledby="login-modal2"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-fullscreen">
+    <div
+      class="modal-content justify-content-center container-fluid p-6 p-lg-7"
+    >
+      <div
+        class="login-cover-group d-flex justify-content-between align-items-center"
+      >
+        <div class="swiper d-none d-lg-flex me-6">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide overflow-hidden">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/login/cover-1.png?raw=true"
+                alt="login-cover-1"
+                class="z-n1"
+              />
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/bg-%23.svg"
+                alt=""
+                class="login-pound position-absolute top-0 start-0"
+              />
+              <div class="login-title position-absolute bottom-0 start-0">
+                <h2 class="fw-bold text-primary-60"># ZOBAAAAA !</h2>
+                <h3 class="fw-bold fs-lg-1">把旅行變成，</h3>
+                <h3 class="fw-bold fs-lg-1">生活的養分。</h3>
+              </div>
+            </div>
+            <div class="swiper-slide overflow-hidden">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/map-5.png?raw=true"
+                alt="login-cover-2"
+                class="z-n1"
+              />
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/bg-%23.svg"
+                alt=""
+                class="login-pound position-absolute top-0 start-0"
+              />
+              <div class="login-title position-absolute bottom-0 start-0">
+                <h2 class="fw-bold text-primary-60"># ZOBAAAAA !</h2>
+                <h3 class="fw-bold fs-lg-1">把旅行變成，</h3>
+                <h3 class="fw-bold fs-lg-1">生活的養分。</h3>
+              </div>
+            </div>
+            <div class="swiper-slide overflow-hidden">
+              <img
+                src="https://images.pexels.com/photos/33286778/pexels-photo-33286778.jpeg"
+                alt="login-cover-3"
+                class="z-n1"
+              />
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/bg-%23.svg"
+                alt=""
+                class="login-pound position-absolute top-0 start-0"
+              />
+              <div class="login-title position-absolute bottom-0 start-0">
+                <h2 class="fw-bold text-primary-60"># ZOBAAAAA !</h2>
+                <h3 class="fw-bold fs-lg-1">把旅行變成，</h3>
+                <h3 class="fw-bold fs-lg-1">生活的養分。</h3>
+              </div>
+            </div>
+          </div>
+          <div class="login-pagination swiper-pagination"></div>
+        </div>
+        <div class="login-form">
+          <div class="form-content">
+            <h3
+              class="fs-lg-1 fs-2 fw-bold mb-6 mb-lg-7"
+              aria-labelledby="registerModalLabel"
+            >
+              歡迎加入 ZOBAA
+            </h3>
+            <ul class="list-unstyled mb-7">
+              <li class="mb-2 mb-lg-4 position-relative">
+                <a
+                  class="w-100 btn btn-white border-neutral-40 d-flex justify-content-center text-neutral-80 p-4"
+                  href="#"
+                >
+                  使用 Google 帳號登入
+                </a>
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARsSURBVHgB7ZnPbxNHFMe/s1lCoFXlVP0RyoHlgtRfEOihqqDKurdUSHU4toc64tBbY6SWQy+xDz30h4Qj9VJVqvIHtMRBEUdifgi4oBhy4QKsAGEQSDgQhx+2d3izcSDJzu7OrjcxCH+k0dqzM7PvvX0z780s0KHD6w1DTPB9MMHRTyMOUOmnqkSzCCp0z6KrKBepFNkZFBEDLSnATRKwjhEaJYMXwqpiUSmihhw77/yORCQFHMEbGKWfGcTDeFRFQivA95LQmiN8WIsHYZFRcuwsKROCUArwL3EE8Vnd4yHI0vzIqTZXUqDp6xPU2sT6MMROo6DSUFNphF42vW7CM3IjReEFgQo4bnOP92M9EMKfQjZMF18FSPg0wvl8RQhBfpykVWU7WZKJgi70OnUcY/TPkvaMIPxiNw/I7w3YmKaHGgjGonbDqsHJMQyjlWxp7IjCL3b1esigNo55+3sESkNW1WnlKJL1Q9CMJXnxRqIKL5AqwKd7DGj8Gk7UgRMNv965Vh4eBx5zwM46l6904ACVhERPsny7hRfIFdDYwPPfe7qAgxtAU3J5C0u4DV4CXAqQ+5h0MVZU9pLwB7vpjXQt/hchP6TPrxW6u8o2Pee2cKkdmsW+q43jJUGiAPMPWh9okwjBlsOXOGKAC7dlKN7+befw8nq3Ahq2+Y6EhnKYjxMm3Jq70xnJJOYGfHmzhHbB3Sm8RAHmm+ezZKV9k5cpKfBqIXMhXws7UbpdcPfS7VaAszn4UjfQLhizVldJFEDAJNVMtA3bZVxJHHBS4m8k9bhjb8Jf1U9GgDNZKFL+fafyvnvL4YvXyMyG130Od7ouW4Wkb2C2/jZ+efA5SrV3El//n0ojZvp+nkn7Ce+g2cXVVfJ0+mT3/eXL6bHHBv5Z+PDFfYqKVWB3cagQy5KayMwkNnVrMwEKWPQ2t6+ulC+jtjYmLlWu49eHe1YILxBR8Q04Ryyx0KNr+SDrMybf7XnEgZ781fpb+HFuH87X3pcPCKT3T6RG0SJ9P82OMo0F7vxs1sh5yCEnPTmYv2dvHEEA5E55cqdcWHcyJ1KJ67M/HHk0vzUd1JasP35rVRK3hGckrtgbswzBOT+1yZA7zYSZ2IP/pVKiz0ef/p1+r+9c0PgVL+s373szOrU3c6H2rrKvi8nNOSa1BgrzOkpLbyU1kTLqdcomdYidnusk+9aNJMo3k/JBbX6o/OeuPKIoINh/NCVODgJdqVXulL/ATWtwZSXnY+U/dvmeSykFGZqs03QxscYsLPThyuVv8fRJQghfelSzk5X8bl83VspGKVwPbdWra74P2Lz5NnZ8/C90vXpSRXhBqOP19XAnm45rjh8oKB9nhtoPTNHApPEwQ/RPQl6I1eazDXcPhRG+2S88zqpCHyKod/DRowLC6t0M2UKE1KSlj3xLilCgGeBQOgRe/uAK9Rmj+ZUvtJBTxfaZlVYqk06zTVKmXyhD1228ud47wYhjjvy1JI5GqL40NVQookOHDi3zDI6xaRkMjqvUAAAAAElFTkSuQmCC"
+                  alt="login-icon"
+                  class="login-icon position-absolute top-50 start-0 translate-middle-y ms-4"
+                />
+              </li>
+              <li class="mb-2 mb-lg-4 position-relative">
+                <a
+                  class="w-100 btn btn-white border-neutral-40 d-flex justify-content-center text-neutral-80 p-4"
+                  href="#"
+                >
+                  使用 Facebook 帳號登入
+                </a>
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAILSURBVHgB7Zo/SAJRHMe/nmURBkYG1dAf6A8EQVFTUTmFbVEtUUNORRDm2F401hQ12RZtUUNjUTTnFkVDLSVlJKiHit51Tzix1NP0uueL9wG5e7+T4324937vd9wDGMeU2XBMe23xarFDMAs2VChV0Vrf5YkrqLbTAqPze+uCSdgBA0hJyXNzvLpLzlMCjiWvLRmPfYIhzGJNA3kSAmkkEtEBMAYZ6uQogFHUecqsgArzAlWgSFd7Y+rXYq9Px0JiDGExjnAkDt/dq3Ie07wHFYE5Zz+mxnvRrXReC/fmKW4VCS0MFbDW1WDLM4nBvlbohaFzYGNlQtfOEwwTcI71YGyoE3pjmIBrdhh/gSFzoKvNjpames3/+AMh+N9D32IkGxXCEIHmJqvmdffmmZJtXlAKhgwhrXR5fnVfcucJ1Ffix+cPlAN1gXAkhnLgxRxteDWaCaks1xZHsuLNGmvA3FQ/nEphlwv31hkKoasAKdZ+W+t0t9tzxguV0SoVO4SKTa8VKxCK8CdAl5+FXT4qVyBQnICuWcinFGXjCwdZcdfMUN73ge39C5xfP6BU+EpMGy5AGy5AGy5AGy5AGy5Am/8hIEnmIBglJWCxVD+BMciWA3JMCVweuoKQTR6wgix51P0S6Rea66PlXce09zBh1f+rvUnOf+0tEIEsyCgGSZKCFrHuKXOzB/N8ARqylS1NA//nAAAAAElFTkSuQmCC"
+                  alt="login-icon"
+                  class="login-icon position-absolute top-50 start-0 translate-middle-y ms-4"
+                />
+              </li>
+              <li class="mb-2 mb-lg-4 position-relative">
+                <a
+                  class="w-100 btn btn-white border-neutral-40 d-flex justify-content-center text-neutral-80 p-4"
+                  href="#"
+                >
+                  使用 Apple 帳號登入
+                </a>
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAH5SURBVHgB7ZrNTcNAEIU/4MIxHbAlQAX4yi0luANCBUkHQAWhA6CChArCkZtNBYEKjEd2lBDstTe79sQSn/SkKNpV3ox39s+Bf3Q5QYdRrttcUfn5igExybXOlZVKGAiS6QVb4xstGQhV5kUPDIAp1eZFhiPHUG9+zgCYUW1eitcwAFb8NS+z0CUDoSrzgzEv7GZ9RjGdBsN3JR6xNfRVap8oV1pqF8PvGniv6R8cMSzTYtXYlu9i6oszopj311QXdlN/byaWH9/Xc2lmTH3AdUrKvsGo2wZ0rSmBcMler0Gc0sw9utPeNx4Y9DIfZLF7ArQCGOOJAbTMzwlADGRKMgTgBdAwP8cB2yx0gQ5vLo1tARh0SF0a2wIIumt0IHVp3GYh6xvj0tgWQC9b2wqMS2NbAF5LuAfXBEJrGpUtROv6sz2BFB3E/IQAxOg8gY28N3IjQDOAhABr0QLIFCX1EOPBDMiOQCsORHsYNQbQtBLLYrZEn0c8iNDNfkIAFkCmpJgAGEDDfNJk7Ix2SC3IPWpEv9xR3JkGY0F/2e/k3Zmh/d2o79Dp7EAVQefmDS1pWwO7pLk+ab54kjavpeSgLueLc+yZlVq7yfVBDxiKbO1mT4aXnCMiS7+YYnHcz/ySAzZvIf4rEZU/nOL2lkWexGbL3NvbmaPjB3lPyOoJR6OtAAAAAElFTkSuQmCC"
+                  alt="login-icon"
+                  class="login-icon position-absolute top-50 start-0 translate-middle-y ms-4"
+                />
+              </li>
+            </ul>
+            <div>
+              <h5 class="fs-7 fw-bold mb-4">或使用 ZOBAA 帳號註冊</h5>
+              <form action="">
+                <div class="mb-4">
+                  <label for="registerEmail" class="form-label"
+                    >電子信箱<span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="registerEmail"
+                    placeholder="請輸入電子信箱"
+                    required
+                  />
+                </div>
+                <label for="registerPassword" class="form-label"
+                  >密碼<span class="text-danger">*</span></label
+                >
+                <div class="position-relative mb-4">
+                  <input
+                    type="password"
+                    class="form-control password-input"
+                    id="registerPassword"
+                    placeholder="請輸入密碼"
+                    required
+                  />
+                  <button
+                    type="button"
+                    class="password-eye position-absolute top-50 end-0 translate-middle-y fs-5 d-none"
+                  >
+                    <i class="bi bi-eye"></i>
+                  </button>
+                </div>
+                <label for="registerPasswordcheck" class="form-label"
+                  >確認密碼<span class="text-danger">*</span></label
+                >
+                <div class="position-relative mb-4 mb-lg-7">
+                  <input
+                    type="password"
+                    class="form-control password-input"
+                    id="registerPasswordcheck"
+                    placeholder="請再輸入一次密碼"
+                    required
+                  />
+                  <button
+                    type="button"
+                    class="password-eye position-absolute top-50 end-0 translate-middle-y fs-5 d-none"
+                  >
+                    <i class="bi bi-eye"></i>
+                  </button>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-neutral-40 w-100 fw-semibold text-neutral-60 py-4 text-center mb-4"
+                >
+                  立即註冊
+                </button>
+                <p class="mb-6 mb-lg-7 text-neutral-80">
+                  建立帳號即表示您同意我們的
+                  <a class="text-decoration-underline" href="">服務條款</a> 及
+                  <a class="text-decoration-underline" href="">隱私權政策</a>
+                </p>
+                <div class="d-flex">
+                  <p class="text-neutral-80 me-2">已經有 ZOBAA 帳號了嗎？</p>
+                  <a
+                    class="text-primary fw-bold text-decoration-underline"
+                    data-bs-toggle="modal"
+                    data-bs-target="#login-modal"
+                    data-bs-dismiss="modal"
+                    >立即登入</a
+                  >
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 未登入 -->
+<nav
+  class="navbar navbar-not-login py-3 py-lg-4 bg-lg-opacity-50 fixed-top"
+  id="mainHeader"
+>
+  <div class="container position-relative align-items-center">
+    <div class="d-flex align-items-center me-auto">
+      <a class="navbar-brand p-0 me-6 logo-img" href="index.html"
+        ><img src="/ZOBAAA/assets/LOGO-Chnz-UXJ.png" alt="logo"
+      /></a>
+      <form class="position-relative d-none d-lg-block">
+        <span
+          class="material-symbols-outlined align-bottom position-absolute top-50 start-0 translate-middle-y ps-3 text-neutral-60"
+        >
+          search
+        </span>
+
+        <input
+          type="search"
+          class="form-control search-lineheight navbar-lg-search rounded-3 py-2 ps-7"
+          id="navbar-lg-search"
+          placeholder="搜尋景點、地點或城市"
+        />
+      </form>
+    </div>
+    <div class="position-absolute z-1 start-0 end-0 px-4 bg-white">
+      <div class="collapse" id="collapseExample">
+        <div class="d-flex align-items-center">
+          <form class="position-relative w-100">
+            <span
+              class="material-symbols-outlined align-bottom position-absolute top-50 start-0 translate-middle-y ps-3 text-neutral-60"
+            >
+              search
+            </span>
+            <input
+              type="search"
+              class="form-control search-lineheight rounded-2 py-2 ps-7"
+              id="exampleFormControlInput1"
+              placeholder="搜尋景點、地點或城市"
+            />
+          </form>
+          <button
+            type="button"
+            class="btn p-2 border-0 text-neutral-80"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseExample"
+          >
+            <span class="material-symbols-outlined align-bottom"> close </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <button
+      type="button"
+      class="btn p-2 border-0 text-neutral-80 d-lg-none"
+      data-bs-toggle="collapse"
+      data-bs-target="#collapseExample"
+    >
+      <span class="material-symbols-outlined align-bottom"> search </span>
+    </button>
+    <a href="checkout.html" class="btn border-0 py-2 text-neutral-80">
+      <span class="material-symbols-outlined align-bottom">
+        shopping_cart
+      </span>
+    </a>
+    <button
+      class="btn border-0 p-2 text-neutral-80 d-lg-none"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasNotLogin"
+      aria-controls="offcanvasNotLogin"
+      aria-label="Toggle navigation"
+    >
+      <span class="material-symbols-outlined align-bottom"> menu </span>
+    </button>
+    <button
+      class="btn btn-lg btn-primary d-none d-lg-block"
+      data-bs-toggle="modal"
+      data-bs-target="#login-modal"
+    >
+      登入 / 註冊
+    </button>
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasNotLogin"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
+      <div class="offcanvas-header p-6 pb-4">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body pt-0 d-flex flex-column">
+        <div
+          class="not-login d-flex align-items-center pb-4 border-bottom border-1 border-neutral-40 mb-6"
+        >
+          <span class="badage rounded-circle bg-primary-40 me-2 p-1">
+            <span
+              class="text-primary-10 material-symbols-outlined align-bottom"
+            >
+              account_circle
+            </span>
+          </span>
+          <div>
+            <p class="text-primary-100 fw-bold fs-7">訪客</p>
+            <p class="text-primary-80 fs-7">未登入</p>
+          </div>
+        </div>
+        <h6 class="fw-bold text-primary mb-1">歡迎來到 ZOBAA</h6>
+        <p class="fs-7 text-neutral-80">
+          加入會員即可立即訂購、收藏行程，並享相關優惠好禮。
+        </p>
+        <button
+          class="btn btn-primary mt-auto"
+          data-bs-toggle="modal"
+          data-bs-target="#login-modal"
+        >
+          登入 / 註冊
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- 登入 -->
+<nav class="navbar navbar-login py-3 py-lg-4 bg-lg-opacity-50 fixed-top d-none">
+  <div class="container position-relative align-items-center">
+    <div class="d-flex align-items-center me-auto">
+      <a class="navbar-brand p-0 me-6 logo-img" href="index.html"
+        ><img src="/ZOBAAA/assets/LOGO-Chnz-UXJ.png" alt="logo"
+      /></a>
+      <form class="position-relative d-none d-lg-block">
+        <span
+          class="material-symbols-outlined align-bottom position-absolute top-50 start-0 translate-middle-y ps-3 text-neutral-60"
+        >
+          search
+        </span>
+
+        <input
+          type="search"
+          class="form-control search-lineheight navbar-lg-search rounded-3 py-2 ps-7"
+          id="navbar-lg-search"
+          placeholder="搜尋景點、地點或城市"
+        />
+      </form>
+    </div>
+    <div class="position-absolute bg-white z-1 start-0 end-0 px-3">
+      <div class="collapse" id="collapseExample">
+        <div class="d-flex align-items-center">
+          <form class="position-relative w-100">
+            <span
+              class="material-symbols-outlined align-bottom position-absolute top-50 start-0 translate-middle-y ps-3 text-neutral-60"
+            >
+              search
+            </span>
+
+            <input
+              type="search"
+              class="form-control search-lineheight rounded-2 py-2 ps-7"
+              id="exampleFormControlInput1"
+              placeholder="搜尋景點、地點或城市"
+            />
+          </form>
+          <button
+            type="button"
+            class="btn p-2 border-0 text-neutral-80"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseExample"
+          >
+            <span class="material-symbols-outlined align-bottom"> close </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <button
+      type="button"
+      class="btn p-2 border-0 text-neutral-80 d-lg-none"
+      data-bs-toggle="collapse"
+      data-bs-target="#collapseExample"
+    >
+      <span class="material-symbols-outlined align-bottom"> search </span>
+    </button>
+    <a href="cart.html" class="btn border-0 py-2 text-neutral-80 me-lg-4"
+      ><span class="position-relative">
+        <span
+          class="position-absolute top-0 start-100 translate-middle badge rounded-circle bg-alert p-0 cart-tag"
+          >2
+        </span>
+        <span class="material-symbols-outlined align-bottom">
+          shopping_cart
+        </span>
+      </span>
+    </a>
+    <button
+      class="btn border-0 p-2 text-neutral-80 d-lg-none"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasLogin"
+      aria-controls="offcanvasLogin"
+      aria-label="Toggle navigation"
+    >
+      <span class="material-symbols-outlined align-bottom"> menu </span>
+    </button>
+    <a href="user.html" class="d-none d-lg-flex align-items-center">
+      <img
+        src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/user/avatar-1.png?raw=true"
+        alt="avatar-1"
+        class="user-img me-2"
+      />
+      <p class="fw-bold text-primary fs-7">Jessica</p>
+    </a>
+    <div
+      class="login-canvas offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasLogin"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
+      <div class="offcanvas-header p-6 pb-4">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body p-6 pt-0 d-flex flex-column">
+        <div
+          class="not-login d-flex align-items-center pb-4 border-bottom border-1 border-neutral-40 mb-4"
+        >
+          <img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/user/avatar-1.png?raw=true"
+            alt=""
+            class="user-img m-2 ms-0 rounded-circle"
+          />
+
+          <div>
+            <p class="text-primary-100 fw-bold fs-7">Jessica</p>
+            <p class="text-primary-80 fs-7">jessica.yen@gamil.com</p>
+          </div>
+        </div>
+        <ul class="list-unstyled">
+          <li class="py-3">
+            <a
+              class="text-neutral-80 fs-8 d-flex align-items-center"
+              href="user.html"
+            >
+              <span class="material-symbols-outlined align-bottom me-2">
+                article </span
+              >訂單管理</a
+            >
+          </li>
+          <li class="py-3">
+            <a
+              class="text-neutral-80 fs-8 d-flex align-items-center"
+              href="user.html"
+            >
+              <span class="material-symbols-outlined me-2"> favorite </span>
+              我的收藏</a
+            >
+          </li>
+          <li class="py-3">
+            <a
+              class="text-neutral-80 fs-8 d-flex align-items-center"
+              href="user.html"
+            >
+              <span class="material-symbols-outlined me-2"> settings </span>
+              我的收藏</a
+            >
+          </li>
+        </ul>
+        <button
+          class="btn p-0 d-flex justify-content-star mt-auto p-3 text-neutral-80 btn-logout"
+        >
+          <span class="material-symbols-outlined align-bottom me-2">
+            logout </span
+          >登出
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+    <main>
+      <div class="bg-line">
+        <div class="container py-7 py-lg-11">
+          <div class="position-relative user-info">
+            <div class="position-relative">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/user/hero.png?raw=true"
+                alt="hero"
+                class="border-radius-24 user-hero"
+              />
+              <a
+                class="text-white position-absolute bottom-0 end-0 p-12 d-none d-lg-inline-flex"
+                href="#"
+                ><span class="me-2 material-icons align-bottom"> edit </span
+                >更換封面</a
+              >
+            </div>
+            <div class="position-absolute top-100 start-50 translate-middle">
+              <div class="position-relative">
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/user/avatar-1.png?raw=true"
+                  alt="avatar-1"
+                  class="avatar-img rounded-circle border border-4 border-primary"
+                />
+                <a
+                  class="bg-primary rounded-circle position-absolute bottom-0 end-0"
+                  href="#"
+                >
+                  <span class="material-icons text-white p-2"> edit </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="text-center mb-7 mb-lg-9">
+            <p class="fw-bold fs-6 fs-lg-5 text-primary mb-1">Jessica</p>
+            <p class="fs-8 fs-lg-7 text-primary-80">jessica.yen@gmail.com</p>
+          </div>
+          <div class="user-file mb-6">
+            <ul class="nav nav-underline" id="dashboard-tab" role="tablist">
+              <li
+                class="nav-item border-end border-neutral-40"
+                role="presentation"
+              >
+                <button
+                  class="nav-link active fw-bold"
+                  id="dashboard-account-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#dashboard-account"
+                  type="button"
+                  role="tab"
+                  aria-controls="dashboard-account"
+                  aria-selected="true"
+                >
+                  我的帳號
+                </button>
+              </li>
+              <li
+                class="nav-item border-end border-neutral-40"
+                role="presentation"
+              >
+                <button
+                  class="nav-link fw-bold"
+                  id="dashboard-order-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#dashboard-order"
+                  type="button"
+                  role="tab"
+                  aria-controls="dashboard-order"
+                  aria-selected="true"
+                >
+                  訂單管理
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link fw-bold"
+                  id="dashboard-like-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#dashboard-like"
+                  type="button"
+                  role="tab"
+                  aria-controls="dashboard-like"
+                  aria-selected="true"
+                >
+                  我的收藏
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="user-content tab-content" id="dashboard-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="dashboard-account"
+              role="tabpanel"
+              aria-labelledby="dashboard-account-tab"
+              tabindex="0"
+            >
+              <h1 class="fs-lg-1 fs-2 fw-bold mb-7">我的帳號</h1>
+              <ul
+                class="nav nav-underline mb-6"
+                id="account-content-tab"
+                role="tablist"
+              >
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="user-account-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#user-account"
+                    type="button"
+                    role="tab"
+                    aria-controls="user-account"
+                    aria-selected="true"
+                  >
+                    個人資訊
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="user-guest-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#user-guest"
+                    type="button"
+                    role="tab"
+                    aria-controls="user-guest"
+                    aria-selected="false"
+                  >
+                    常用旅客
+                  </button>
+                </li>
+              </ul>
+              <div class="account-content-tab tab-content" id="tab-content">
+                <div
+                  class="tab-pane fade show active"
+                  id="user-account"
+                  role="tabpanel"
+                  aria-labelledby="user-account-tab"
+                >
+                  <form action="user.html">
+                    <div class="mb-6">
+                      <label for="account-name" class="form-label">姓名</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="account-name"
+                        placeholder="Jessica Yen"
+                        readonly
+                      />
+                    </div>
+                    <div class="mb-6">
+                      <label for="account-mail" class="form-label"
+                        >電子信箱</label
+                      >
+                      <input
+                        type="mail"
+                        class="form-control"
+                        id="account-mail"
+                        placeholder="jessica.yen@gmail.com"
+                        readonly
+                      />
+                    </div>
+                    <div class="mb-6">
+                      <label for="account-password" class="form-label"
+                        >密碼</label
+                      >
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="account-password"
+                        placeholder="************"
+                        readonly
+                      />
+                    </div>
+                    <div class="mb-6">
+                      <label for="account-phone" class="form-label"
+                        >聯絡電話</label
+                      >
+                      <input
+                        type="tel"
+                        class="form-control"
+                        id="account-phone"
+                        placeholder="+886 912-345-678"
+                        readonly
+                      />
+                    </div>
+                    <div class="mb-6">
+                      <label for="account-address" class="form-label"
+                        >地址</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="account-address"
+                        placeholder="台北市士林區幸福路193號5樓之1"
+                        readonly
+                      />
+                    </div>
+                    <div class="mb-7">
+                      <label for="account-birth" class="form-label">生日</label>
+                      <input
+                        type="datetime"
+                        class="form-control"
+                        id="account-birth"
+                        placeholder="1995-09-20"
+                        readonly
+                      />
+                    </div>
+                    <div class="d-flex justify-content-lg-end">
+                      <button
+                        type="submit"
+                        class="w-100 w-lg-auto fw-bold btn btn-lg btn-outline-primary"
+                      >
+                        <span class="material-icons align-bottom me-1">
+                          edit
+                        </span>
+                        編輯資訊
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="user-guest"
+                  role="tabpanel"
+                  aria-labelledby="user-guest-tab"
+                >
+                  <div class="guest-content-bg mb-6">
+                    <div class="guest-content">
+                      <div class="d-flex flex-wrap justify-content-between">
+                        <div class="d-flex align-items-center mb-4 mb-lg-0">
+                          <img
+                            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/user/avatar-1.png?raw=true"
+                            alt="avatar-1"
+                            class="rounded-circle border border-primary me-2"
+                          />
+                          <div>
+                            <p class="fw-bold mb-lg-2">Jessica Yen</p>
+                            <div class="guest-text-display guest-display">
+                              <p class="d-flex align-items-center mb-1">
+                                <span
+                                  class="material-icons-outlined fs-7 p-1 align-bottom"
+                                >
+                                  cake </span
+                                >Jenny.Linnn@gmail.com
+                              </p>
+                              <p class="d-flex align-items-center">
+                                <span
+                                  class="material-icons-outlined fs-7 p-1 align-bottom"
+                                >
+                                  mail </span
+                                >2001.01.30
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <button
+                            class="fw-bold btn btn-lg btn-outline-primary me-1 btn-light guest-display text-nowrap"
+                          >
+                            <span class="material-icons align-bottom me-1">
+                              edit
+                            </span>
+                            <span>編輯資訊</span>
+                          </button>
+                          <button
+                            class="fw-bold btn btn-lg btn-outline-primary guest-display btn-light text-nowrap"
+                          >
+                            <span class="material-icons align-bottom me-1">
+                              close
+                            </span>
+                            <span>刪除</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="guest-content-bg mb-7">
+                    <div class="guest-content">
+                      <div class="d-flex flex-wrap justify-content-between">
+                        <div class="d-flex align-items-center mb-4 mb-lg-0">
+                          <img
+                            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/user/avatar-2.jpg?raw=true"
+                            alt="avatar-2"
+                            class="rounded-circle border border-primary me-2"
+                          />
+                          <div>
+                            <p class="fw-bold mb-lg-2">Jenny Lin</p>
+                            <div class="guest-text-display guest-display">
+                              <p class="d-flex align-items-center mb-1">
+                                <span
+                                  class="material-icons-outlined fs-7 p-1 align-bottom"
+                                >
+                                  cake </span
+                                >Jenny.Linnn@gmail.com
+                              </p>
+                              <p class="d-flex align-items-center">
+                                <span
+                                  class="material-icons-outlined fs-7 p-1 align-bottom"
+                                >
+                                  mail </span
+                                >2001.01.30
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <button
+                            class="fw-bold btn btn-lg btn-outline-primary me-1 btn-light guest-display text-nowrap"
+                          >
+                            <span class="material-icons align-bottom me-1">
+                              edit
+                            </span>
+                            <span>編輯資訊</span>
+                          </button>
+                          <button
+                            class="fw-bold btn btn-lg btn-outline-primary guest-display btn-light text-nowrap"
+                          >
+                            <span class="material-icons align-bottom me-1">
+                              close
+                            </span>
+                            <span>刪除</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-lg-end">
+                    <button
+                      type="submit"
+                      class="w-100 w-lg-auto fw-bold btn btn-lg btn-outline-primary"
+                    >
+                      <span class="material-icons align-bottom me-1">
+                        add
+                      </span>
+                      新增常用旅客
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-black">
+  <div class="container">
+    <div class="footer-container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-7 mb-lg-0">
+          <a href="index.html">
+            <img
+              src="/ZOBAAA/assets/LOGO-white-SgeEUiZy.png"
+              alt="LOGO"
+              class="footer-logo mb-7 mb-lg-12"
+            />
+          </a>
+          <ul
+            class="navbar-nav d-lg-flex flex-lg-row me-auto mb-2 mb-lg-0 text-white p-0"
+          >
+            <li class="nav-item mb-4 mb-lg-0 me-lg-12">
+              <a class="nav-link fs-7 p-0" href="#">常見問題</a>
+            </li>
+            <li class="nav-item mb-4 mb-lg-0 me-lg-12">
+              <a class="nav-link fs-7 p-0" href="#">關於我們</a>
+            </li>
+            <li class="nav-item mb-4 mb-lg-0 me-lg-12">
+              <a class="nav-link fs-7 p-0" href="#">隱私權政策</a>
+            </li>
+            <li class="nav-item mb-4 mb-lg-0 me-lg-12">
+              <a class="nav-link fs-7 p-0" href="#">使用者條款</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6 d-flex flex-column align-items-lg-end">
+          <div class="d-flex footer-icon mb-4">
+            <a class="me-4 me-lg-12" href="">
+              <img src="data:image/png;base64,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" alt="btn_line" />
+            </a>
+            <a class="me-4 me-lg-12" href="">
+              <img src="data:image/png;base64,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" alt="btn_line" />
+            </a>
+            <a href="">
+              <img src="data:image/png;base64,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" alt="btn_fb" />
+            </a>
+          </div>
+          <p class="text-white fs-8 lh-base">
+            copyright © 2025 ZOBAA 旅遊網站 All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+      integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar");
+        if (window.scrollY > 0) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+      });
+    </script>
+  </body>
+</html>
