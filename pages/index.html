@@ -1,0 +1,1511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/scss/all.scss" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <title>ZOBAAA! | 首頁</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+    <main>
+      <div class="bg-hero">
+        <div class="container h-100">
+          <div class="row d-flex justify-content-center w-lg-100">
+            <div class="col-lg-10">
+              <div data-aos="fade-up" data-aos-duration="1000">
+                <span class="badge-custom mb-4">ZOBAA 旅行推薦平台</span>
+                <h1 class="display-lg-1 fw-bold text-primary mb-6">
+                  用旅行，<span class="d-inline-block">收藏世界的樣子</span>
+                </h1>
+                <p class="text-primary-80 fw-bold fs-8 fs-lg-6 mb-7">
+                  ZOBAA
+                  整合熱門景點推薦、即時優惠、獨家行程，從比價到訂購，一次完成你的完美出遊計畫。
+                </p>
+                <form class="position-relative index-lg-search">
+                  <span
+                    class="material-symbols-outlined align-bottom position-absolute top-50 start-0 translate-middle-y ps-2 text-neutral-60"
+                  >
+                    search
+                  </span>
+                  <a
+                    href="location.html"
+                    class="btn btn-sm btn-primary fw-semibold position-absolute top-50 end-0 translate-middle-y me-2"
+                  >
+                    開始探索旅程
+                  </a>
+                  <input
+                    type="search"
+                    class="form-control search-lineheight py-5 ps-7 pe-2"
+                    id="navbar-lg-search"
+                    placeholder="搜尋景點、地點或城市"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-brwon-dark py-7 py-lg-11">
+        <div class="container mb-9">
+          <div class="row">
+            <div class="col">
+              <div
+                data-aos="fade-up"
+                class="d-lg-flex align-items-center justify-content-between"
+              >
+                <h2 class="display-lg-1 text-white mb-6 mb-lg-0">
+                  你的<br />專屬推薦
+                </h2>
+                <div>
+                  <p class="fw-bold text-white fs-8 fs-lg-6">
+                    來看我們的精選推薦行程，滿意度高達 99.2%
+                  </p>
+                  <p class="fw-bold text-white fs-8 fs-lg-6 mb-6">
+                    給自己一個難忘的旅遊行程吧！
+                  </p>
+
+                  <a class="btn p-0 text-white fw-bold fs-8 fs-lg-7" href="">
+                    查看全部行程<span
+                      class="material-symbols-outlined ms-2 align-bottom"
+                    >
+                      arrow_right_alt
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Swiper 容器 -->
+        <div data-aos="zoom-in" data-aos-duration="1000">
+          <div class="container">
+            <div class="recommend-card-group">
+              <div class="swiper">
+                <!-- 包住所有 slides -->
+                <div class="swiper-wrapper pb-7">
+                  <!-- Slide 1 -->
+                  <div class="swiper-slide active-slide">
+                    <div
+                      class="card border-0 recommend-card overflow-x-hidden text-bg-dark"
+                    >
+                      <img
+                        src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/recommend.png?raw=true"
+                        class="recommend-card-img"
+                        alt="recommend-1"
+                      />
+                      <div
+                        class="card-img-overlay d-flex flex-column justify-content-end"
+                      >
+                        <h3 class="fs-2 fw-bold mb-2">峇里島渡假漫遊</h3>
+                        <p class="mb-6">
+                          精選五星級海灘度假村，專屬私人管家服務，讓您徹底放鬆身心。
+                        </p>
+                        <a
+                          class="btn btn-light fw-bold rounded-pill p-5"
+                          href=""
+                          >訂購行程
+                          <span
+                            class="ms-2 align-bottom material-symbols-outlined"
+                          >
+                            arrow_right_alt
+                          </span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Slide 1 -->
+                  <div class="swiper-slide">
+                    <div
+                      class="card border-0 recommend-card overflow-x-hidden text-bg-dark"
+                    >
+                      <img
+                        src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/recommend-1.png?raw=true"
+                        class="recommend-card-img"
+                        alt="recommend-2"
+                      />
+                      <div
+                        class="card-img-overlay d-flex flex-column justify-content-end"
+                      >
+                        <h3 class="fs-2 fw-bold mb-2">日本深度賞櫻計畫</h3>
+                        <p class="mb-6">
+                          春季限定，東京、京都、大阪賞櫻之旅，體驗日本文化的精髓。
+                        </p>
+                        <a
+                          class="btn fw-bold btn-light rounded-pill p-5"
+                          href=""
+                          >訂購行程
+                          <span
+                            class="ms-2 align-bottom material-symbols-outlined"
+                          >
+                            arrow_right_alt
+                          </span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Slide 1 -->
+                  <div class="swiper-slide">
+                    <div
+                      class="card border-0 recommend-card overflow-x-hidden text-bg-dark"
+                    >
+                      <img
+                        src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/recommend-2.png?raw=true"
+                        class="recommend-card-img"
+                        alt="recommend-3"
+                      />
+                      <div
+                        class="card-img-overlay d-flex flex-column justify-content-end"
+                      >
+                        <h3 class="fs-2 fw-bold mb-2">紐西蘭雪山探險</h3>
+                        <p class="mb-6">
+                          探索南島壯麗的自然風光，體驗各種極限運動和戶外活動。
+                        </p>
+                        <a
+                          class="btn fw-bold btn-light rounded-pill p-5"
+                          href=""
+                          >訂購行程
+                          <span
+                            class="ms-2 align-bottom material-symbols-outlined"
+                          >
+                            arrow_right_alt
+                          </span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Slide 1 -->
+                  <div class="swiper-slide">
+                    <div
+                      class="card border-0 recommend-card overflow-x-hidden text-bg-dark"
+                    >
+                      <img
+                        src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/recommend-3.png?raw=true"
+                        class="recommend-card-img"
+                        alt="recommend-4"
+                      />
+                      <div
+                        class="card-img-overlay d-flex flex-column justify-content-end"
+                      >
+                        <h3 class="fs-2 fw-bold mb-2">摩洛哥迷幻之旅</h3>
+                        <p class="fs-8 fs-lg-7 mb-6">
+                          漫步沙漠與古城之間，探索千年文化與色彩繽紛的市集風情。
+                        </p>
+                        <a
+                          class="btn fw-bold btn-light rounded-pill p-5"
+                          href=""
+                          >訂購行程
+                          <span
+                            class="ms-2 align-bottom material-symbols-outlined"
+                          >
+                            arrow_right_alt
+                          </span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 分頁 -->
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-deco">
+        <div class="container py-7 py-lg-11">
+          <div
+            class="row flex-column-reverse align-items-lg-center justify-content-lg-between flex-lg-row flex-lg-nowrap"
+          >
+            <div
+              class="col-lg-7 d-flex flex-column align-items-center position-relative"
+            >
+              <div class="d-md-flex mb-lg-5">
+                <div
+                  class="card intro-card overflow-x-hidden mb-4 mb-lg-0 me-md-6"
+                >
+                  <img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/intro-1.png?raw=true"
+                    class="card-img-top"
+                    alt="intro-1"
+                  />
+                  <div class="card-body p-6">
+                    <h5 class="fw-bold mb-2 fs-5">ZOBAA 專屬推薦行程</h5>
+                    <p class="text-neutral-80">嚴選深度行程，豐富旅行靈感</p>
+                  </div>
+                </div>
+                <div class="card intro-card overflow-x-hidden mb-4 mb-lg-0">
+                  <img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/intro-2.png?raw=true"
+                    class="card-img-top"
+                    alt="intro-2"
+                  />
+                  <div class="card-body p-6">
+                    <h5 class="fw-bold mb-2 fs-5">旅人攻略集合</h5>
+                    <p class="text-neutral-80">景點、交通、私房景點一次掌握</p>
+                  </div>
+                </div>
+              </div>
+              <div class="d-md-flex ps-lg-9">
+                <div
+                  class="card intro-card overflow-x-hidden me-lg-6 mb-4 mb-lg-0 me-md-6"
+                >
+                  <img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/intro-3.png?raw=true"
+                    class="card-img-top"
+                    alt="intro-3"
+                  />
+                  <div class="card-body p-6">
+                    <h5 class="fw-bold mb-2 fs-5">優惠機票、酒店</h5>
+                    <p class="text-neutral-80">即時比價，聰明出發不踩雷</p>
+                  </div>
+                </div>
+                <div class="card intro-card overflow-x-hidden mb-4 mb-lg-0">
+                  <img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/intro-4.png?raw=true"
+                    class="card-img-top"
+                    alt="intro-4"
+                  />
+                  <div class="card-body p-6">
+                    <h5 class="fw-bold mb-2 fs-5">銀行專屬優惠</h5>
+                    <p class="text-neutral-80">使用指定卡別享受獨家旅遊好康</p>
+                  </div>
+                </div>
+              </div>
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/deco-text.svg"
+                alt=""
+                class="position-absolute top-60 end-68 translate-middle d-none d-lg-flex"
+              />
+            </div>
+            <div
+              class="col-lg-4 mb-7 mb-lg-0"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              <h3 class="fw-bold display-lg-1 text-primary">ZOBAA!</h3>
+              <h3 class="fw-bold display-lg-1 text-primary mb-6">
+                踏上旅程的<br />第一站
+              </h3>
+              <p class="fw-bold text-primary-60 fs-lg-6 fs-8">
+                探索最熱門的旅遊主題，
+              </p>
+              <p class="fw-bold text-primary-60 fs-lg-6 fs-8">
+                從旅人必備攻略到獨家優惠，
+              </p>
+              <p class="fw-bold text-primary-60 fs-lg-6 fs-8">
+                全都為你精挑細選。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-primary-10 slant-section">
+        <div class="container pt-7 pt-lg-11">
+          <div
+            class="map d-lg-flex justify-content-lg-between align-items-lg-center"
+          >
+            <div class="d-flex flex-column">
+              <h3 class="display-lg-1 fw-bold text-primary mb-2 text-nowrap">
+                今年旅行的
+                <img
+                  src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/deco-text-1.svg"
+                  alt="deco-text-1"
+                  class="deco-text-1"
+                />
+              </h3>
+              <h3 class="display-lg-1 fw-bold text-primary mb-6">靈感地圖</h3>
+              <ul
+                class="nav nav-pills d-flex flex-nowrap overflow-x-auto mb-6"
+                id="pills-tab"
+                role="tablist"
+              >
+                <li class="nav-item flex-shrink-0" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="pills-all-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-all"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-all"
+                    aria-selected="true"
+                  >
+                    全部
+                  </button>
+                </li>
+                <li class="nav-item flex-shrink-0" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-asia-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-asia"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-asia"
+                    aria-selected="false"
+                  >
+                    亞洲
+                  </button>
+                </li>
+                <li class="nav-item flex-shrink-0" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-europe-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-europe"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-europe"
+                    aria-selected="false"
+                  >
+                    歐洲
+                  </button>
+                </li>
+                <li class="nav-item flex-shrink-0" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-America-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-America"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-America"
+                    aria-selected="false"
+                  >
+                    美洲
+                  </button>
+                </li>
+                <li class="nav-item flex-shrink-0" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-Oceania-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-Oceania"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-Oceania"
+                    aria-selected="false"
+                  >
+                    大洋洲
+                  </button>
+                </li>
+                <li class="nav-item flex-shrink-0" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-Africa-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-Africa"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-Africa"
+                    aria-selected="false"
+                  >
+                    非洲
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <div class="w-lg-50 mb-lg-0">
+              <div class="d-flex flex-column align-items-end">
+                <div
+                  id="textCarousel"
+                  class="carousel slide w-100"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner text-lg-end">
+                    <div class="carousel-item active">
+                      <h4 class="fw-bold text-primary fs-8 fs-lg-6">
+                        來自旅人搜尋、收藏與討論最多的目的地排行榜
+                        <br />
+                        一場風格與故事感兼具的靈感旅行，就從這裡開始。
+                      </h4>
+                    </div>
+                    <div class="carousel-item active">
+                      <h4 class="fw-bold text-primary fs-8 fs-lg-6">
+                        來自旅人搜尋、收藏與討論最多的目的地排行榜
+                        <br />
+                        一場風格與故事感兼具的靈感旅行，就從這裡開始。
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-controls d-none d-lg-flex mt-4">
+                  <button
+                    class="text-info-btn me-2"
+                    type="button"
+                    data-bs-target="#textCarousel"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="material-symbols-outlined text-primary align-bottom"
+                      aria-hidden="true"
+                    >
+                      arrow_left_alt
+                    </span>
+                  </button>
+                  <button
+                    class="text-info-btn"
+                    type="button"
+                    data-bs-target="#textCarousel"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="material-symbols-outlined text-primary align-bottom"
+                      aria-hidden="true"
+                    >
+                      arrow_right_alt
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="custom-container pb-lg-11 pb-7">
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-all"
+              role="tabpanel"
+              aria-labelledby="pills-all-tab"
+            >
+              <div
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                class="map-card-group"
+              >
+                <div class="swiper swiper-horizontal">
+                  <div class="swiper-wrapper mb-7 mb-lg-0">
+                    <div class="swiper-slide">
+                      <div class="map-card d-lg-flex position-relative">
+                        <img
+                          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/map-1.png?raw=true"
+                          alt="map-1"
+                          class="mb-2 mb-lg-0 overflow-x-hidden"
+                        />
+                        <div>
+                          <div class="d-flex mb-2">
+                            <p
+                              class="fw-bold text-primary fs-8 fs-lg-7 py-2 px-4 bg-primary-10 rounded-2 me-2"
+                            >
+                              亞洲
+                            </p>
+                            <p
+                              class="fw-bold text-primary fs-8 fs-lg-7 py-2 px-4 bg-primary-10 rounded-2"
+                            >
+                              日本京都
+                            </p>
+                          </div>
+                          <h3 class="fs-3 fs-lg-1 fw-bold mb-2">
+                            走進四季交織的文化時光
+                          </h3>
+                          <p
+                            class="fs-8 fs-lg-7 lh-base text-neutral-80 mb-6 mb-lg-7"
+                          >
+                            穿過紅葉與古寺的交錯，感受從櫻花盛開到秋楓染紅的日式浪漫。
+                          </p>
+
+                          <div
+                            class="mb-6 mb-lg-7 d-lg-flex align-items-lg-center"
+                          >
+                            <p
+                              class="p-2 fw-bold text-primary fs-8 bg-primary-10 rounded-2 mb-2 mb-lg-0 w-auto text-nowrap d-inline-block me-lg-3"
+                            >
+                              ZOBAA 建議
+                            </p>
+                            <p class="fs-8 fs-lg-7 lh-base text-primary">
+                              賞楓最佳時間是 11 月中旬，推薦清水寺和南禪寺一帶
+                              🍁
+                            </p>
+                          </div>
+                          <a
+                            class="btn btn-dark border-0 w-100 d-flex align-items-center justify-content-between rounded-pill px-5 py-4 fw-bold"
+                            href="location.html"
+                          >
+                            立即探索魅力古都<span
+                              class="material-symbols-outlined align-bottom rounded-circle bg-white text-black p-1"
+                            >
+                              arrow_right_alt
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="map-number">1</div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="map-card d-lg-flex position-relative">
+                        <img
+                          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/map-2.png?raw=true"
+                          alt="map-2"
+                          class="mb-2 mb-lg-0 overflow-x-hidden"
+                        />
+                        <div>
+                          <div class="d-flex mb-2">
+                            <p
+                              class="fw-bold text-primary fs-8 fs-lg-7 py-2 px-4 bg-primary-10 rounded-2 me-2"
+                            >
+                              亞洲
+                            </p>
+                            <p
+                              class="fw-bold text-primary fs-8 fs-lg-7 py-2 px-4 bg-primary-10 rounded-2"
+                            >
+                              南韓首爾
+                            </p>
+                          </div>
+                          <h3 class="fs-3 fs-lg-1 fw-bold mb-2">
+                            從街邊美食到韓劇場景
+                          </h3>
+                          <p
+                            class="fs-8 fs-lg-7 lh-base text-neutral-80 mb-6 mb-lg-7"
+                          >
+                            白天在弘大小巷探店，夜晚登上南山塔俯瞰整座城市的閃爍。
+                          </p>
+
+                          <div
+                            class="mb-6 mb-lg-7 d-lg-flex align-items-lg-center"
+                          >
+                            <p
+                              class="p-2 fw-bold text-primary fs-8 bg-primary-10 rounded-2 mb-2 mb-lg-0 w-auto text-nowrap d-inline-block me-lg-3"
+                            >
+                              ZOBAA 建議
+                            </p>
+                            <p class="fs-8 fs-lg-7 lh-base text-primary">
+                              弘大周邊週五傍晚最熱鬧，小吃與街頭藝人齊發✨
+                            </p>
+                          </div>
+                          <a
+                            class="btn btn-dark border-0 w-100 d-flex align-items-center justify-content-between rounded-pill px-5 py-4 fw-bold"
+                            href=""
+                          >
+                            感受韓系風格日常<span
+                              class="material-symbols-outlined align-bottom rounded-circle bg-white text-black p-1"
+                            >
+                              arrow_right_alt
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="map-number">2</div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="map-card d-lg-flex position-relative">
+                        <img
+                          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/map-3.png?raw=true"
+                          alt="map-3"
+                          class="mb-2 mb-lg-0 overflow-x-hidden"
+                        />
+                        <div>
+                          <div class="d-flex mb-2">
+                            <p
+                              class="fw-bold text-primary fs-8 fs-lg-7 py-2 px-4 bg-primary-10 rounded-2 me-2"
+                            >
+                              歐洲
+                            </p>
+                            <p
+                              class="fw-bold text-primary fs-8 fs-lg-7 py-2 px-4 bg-primary-10 rounded-2"
+                            >
+                              法國巴黎
+                            </p>
+                          </div>
+                          <h3 class="fs-3 fs-lg-1 fw-bold mb-2">
+                            在藝術與咖啡香中迷路
+                          </h3>
+                          <p
+                            class="fs-8 fs-lg-7 lh-base text-neutral-80 mb-6 mb-lg-7"
+                          >
+                            穿梭左岸書店與畫廊，任由麵包香與建築細節擁抱你的步伐。
+                          </p>
+
+                          <div
+                            class="mb-6 mb-lg-7 d-lg-flex align-items-lg-center"
+                          >
+                            <p
+                              class="p-2 fw-bold text-primary fs-8 bg-primary-10 rounded-2 mb-2 mb-lg-0 w-auto text-nowrap d-inline-block me-lg-3"
+                            >
+                              ZOBAA 建議
+                            </p>
+                            <p class="fs-8 fs-lg-7 lh-base text-primary">
+                              走進瑪黑區，最容易與巴黎風格不期而遇 ☕️
+                            </p>
+                          </div>
+                          <a
+                            class="btn btn-dark border-0 w-100 d-flex align-items-center justify-content-between rounded-pill px-5 py-4 fw-bold"
+                            href=""
+                          >
+                            開啟我的巴黎報險<span
+                              class="material-symbols-outlined align-bottom rounded-circle bg-white text-black p-1"
+                            >
+                              arrow_right_alt
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="map-number">3</div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="map-card d-lg-flex position-relative">
+                        <img
+                          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/map-4.png?raw=true"
+                          alt="map-4"
+                          class="mb-2 mb-lg-0 overflow-x-hidden"
+                        />
+                        <div>
+                          <div class="d-flex mb-2">
+                            <p
+                              class="fw-bold text-primary fs-8 fs-lg-7 py-2 px-4 bg-primary-10 rounded-2 me-2"
+                            >
+                              大洋洲
+                            </p>
+                            <p
+                              class="fw-bold text-primary fs-8 fs-lg-7 py-2 px-4 bg-primary-10 rounded-2"
+                            >
+                              澳洲雪梨
+                            </p>
+                          </div>
+                          <h3 class="fs-3 fs-lg-1 fw-bold mb-2">
+                            城市與大自然的交會
+                          </h3>
+                          <p
+                            class="fs-8 fs-lg-7 lh-base text-neutral-80 mb-6 mb-lg-7"
+                          >
+                            清晨在海灘做瑜珈，午後漫步歌劇院，享受城市的節奏與野性的呼喚。
+                          </p>
+
+                          <div
+                            class="mb-6 mb-lg-7 d-lg-flex align-items-lg-center"
+                          >
+                            <p
+                              class="p-2 fw-bold text-primary fs-8 bg-primary-10 rounded-2 mb-2 mb-lg-0 w-auto text-nowrap d-inline-block me-lg-3"
+                            >
+                              ZOBAA 建議
+                            </p>
+                            <p class="fs-8 fs-lg-7 lh-base text-primary">
+                              別錯過傍晚在雪梨港看日落＋欣賞歌劇院夜燈 ✨
+                            </p>
+                          </div>
+                          <a
+                            class="btn btn-dark border-0 w-100 d-flex align-items-center justify-content-between rounded-pill px-5 py-4 fw-bold"
+                            href=""
+                          >
+                            現在就飛向南半球<span
+                              class="material-symbols-outlined align-bottom rounded-circle bg-white text-black p-1"
+                            >
+                              arrow_right_alt
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="map-number">4</div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="map-card d-lg-flex position-relative">
+                        <img
+                          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/map-5.png?raw=true"
+                          alt="map-5"
+                          class="mb-2 mb-lg-0 overflow-x-hidden"
+                        />
+                        <div>
+                          <div class="d-flex mb-2">
+                            <p
+                              class="fw-bold text-primary fs-8 fs-lg-7 py-2 px-4 bg-primary-10 rounded-2 me-2"
+                            >
+                              非洲
+                            </p>
+                            <p
+                              class="fw-bold text-primary fs-8 fs-lg-7 py-2 px-4 bg-primary-10 rounded-2"
+                            >
+                              埃及開羅
+                            </p>
+                          </div>
+                          <h3 class="fs-3 fs-lg-1 fw-bold mb-2">
+                            穿越千年時光的沙漠冒險
+                          </h3>
+                          <p
+                            class="fs-8 fs-lg-7 lh-base text-neutral-80 mb-6 mb-lg-7"
+                          >
+                            乘著駱駝走過古老遺跡，抬頭仰望太陽神的光芒，在歷史與傳說之間迷失。
+                          </p>
+
+                          <div
+                            class="mb-6 mb-lg-7 d-lg-flex align-items-lg-center"
+                          >
+                            <p
+                              class="p-2 fw-bold text-primary fs-8 bg-primary-10 rounded-2 mb-2 mb-lg-0 w-auto text-nowrap d-inline-block me-lg-3"
+                            >
+                              ZOBAA 建議
+                            </p>
+                            <p class="fs-8 fs-lg-7 lh-base text-primary">
+                              建議早上 8 點前到吉薩金字塔，避開人潮與烈日 ☀️
+                            </p>
+                          </div>
+                          <a
+                            class="btn btn-dark border-0 w-100 d-flex align-items-center justify-content-between rounded-pill px-5 py-4 fw-bold"
+                            href=""
+                          >
+                            揭開古文明的面紗<span
+                              class="material-symbols-outlined align-bottom rounded-circle bg-white text-black p-1"
+                            >
+                              arrow_right_alt
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="map-number">5</div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination map-pagination"></div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane"
+              id="pills-asia"
+              role="tabpanel"
+              aria-labelledby="pills-asia-tab"
+            >
+              <div class="map-card-group">
+                <div class="swiper swiper-horizontal">
+                  <div class="swiper-wrapper mb-7 mb-lg-0">
+                    <div class="swiper-slide">
+                      <div class="map-card d-lg-flex position-relative">
+                        <img
+                          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/map-1.png?raw=true"
+                          alt="map-1"
+                          class="mb-2 mb-lg-0 overflow-x-hidden"
+                        />
+                        <div>
+                          <div class="d-flex mb-2">
+                            <p
+                              class="fw-bold text-primary fs-8 fs-lg-7 py-2 px-4 bg-primary-10 rounded-2 me-2"
+                            >
+                              亞洲
+                            </p>
+                            <p
+                              class="fw-bold text-primary fs-8 fs-lg-7 py-2 px-4 bg-primary-10 rounded-2"
+                            >
+                              日本京都
+                            </p>
+                          </div>
+                          <h3 class="fs-3 fs-lg-1 fw-bold mb-2">
+                            走進四季交織的文化時光
+                          </h3>
+                          <p
+                            class="fs-8 fs-lg-7 lh-base text-neutral-80 mb-6 mb-lg-7"
+                          >
+                            穿過紅葉與古寺的交錯，感受從櫻花盛開到秋楓染紅的日式浪漫。
+                          </p>
+
+                          <div
+                            class="mb-6 mb-lg-7 d-lg-flex align-items-lg-center"
+                          >
+                            <p
+                              class="p-2 fw-bold text-primary fs-8 bg-primary-10 rounded-2 mb-2 mb-lg-0 w-auto text-nowrap d-inline-block me-lg-3"
+                            >
+                              ZOBAA 建議
+                            </p>
+                            <p class="fs-8 fs-lg-7 lh-base text-primary">
+                              賞楓最佳時間是 11 月中旬，推薦清水寺和南禪寺一帶
+                              🍁
+                            </p>
+                          </div>
+                          <a
+                            class="btn btn-dark border-0 w-100 d-flex align-items-center justify-content-between rounded-pill px-5 py-4 fw-bold"
+                            href=""
+                          >
+                            立即探索魅力古都<span
+                              class="material-symbols-outlined align-bottom rounded-circle bg-white text-black p-1"
+                            >
+                              arrow_right_alt
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="map-number">1</div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="map-card d-lg-flex position-relative">
+                        <img
+                          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/map-2.png?raw=true"
+                          alt="map-2"
+                          class="mb-2 mb-lg-0 overflow-x-hidden"
+                        />
+                        <div>
+                          <div class="d-flex mb-2">
+                            <p
+                              class="fw-bold text-primary fs-8 fs-lg-7 py-2 px-4 bg-primary-10 rounded-2 me-2"
+                            >
+                              亞洲
+                            </p>
+                            <p
+                              class="fw-bold text-primary fs-8 fs-lg-7 py-2 px-4 bg-primary-10 rounded-2"
+                            >
+                              南韓首爾
+                            </p>
+                          </div>
+                          <h3 class="fs-3 fs-lg-1 fw-bold mb-2">
+                            從街邊美食到韓劇場景
+                          </h3>
+                          <p
+                            class="fs-8 fs-lg-7 lh-base text-neutral-80 mb-6 mb-lg-7"
+                          >
+                            白天在弘大小巷探店，夜晚登上南山塔俯瞰整座城市的閃爍。
+                          </p>
+
+                          <div
+                            class="mb-6 mb-lg-7 d-lg-flex align-items-lg-center"
+                          >
+                            <p
+                              class="p-2 fw-bold text-primary fs-8 bg-primary-10 rounded-2 mb-2 mb-lg-0 w-auto text-nowrap d-inline-block me-lg-3"
+                            >
+                              ZOBAA 建議
+                            </p>
+                            <p class="fs-8 fs-lg-7 lh-base text-primary">
+                              弘大周邊週五傍晚最熱鬧，小吃與街頭藝人齊發✨
+                            </p>
+                          </div>
+                          <a
+                            class="btn btn-dark border-0 w-100 d-flex align-items-center justify-content-between rounded-pill px-5 py-4 fw-bold"
+                            href=""
+                          >
+                            感受韓系風格日常<span
+                              class="material-symbols-outlined align-bottom rounded-circle bg-white text-black p-1"
+                            >
+                              arrow_right_alt
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="map-number">2</div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="map-card d-lg-flex position-relative">
+                        <img
+                          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/map-3.png?raw=true"
+                          alt="map-3"
+                          class="mb-2 mb-lg-0 overflow-x-hidden"
+                        />
+                        <div>
+                          <div class="d-flex mb-2">
+                            <p
+                              class="fw-bold text-primary fs-8 fs-lg-7 py-2 px-4 bg-primary-10 rounded-2 me-2"
+                            >
+                              歐洲
+                            </p>
+                            <p
+                              class="fw-bold text-primary fs-8 fs-lg-7 py-2 px-4 bg-primary-10 rounded-2"
+                            >
+                              法國巴黎
+                            </p>
+                          </div>
+                          <h3 class="fs-3 fs-lg-1 fw-bold mb-2">
+                            在藝術與咖啡香中迷路
+                          </h3>
+                          <p
+                            class="fs-8 fs-lg-7 lh-base text-neutral-80 mb-6 mb-lg-7"
+                          >
+                            穿梭左岸書店與畫廊，任由麵包香與建築細節擁抱你的步伐。
+                          </p>
+
+                          <div
+                            class="mb-6 mb-lg-7 d-lg-flex align-items-lg-center"
+                          >
+                            <p
+                              class="p-2 fw-bold text-primary fs-8 bg-primary-10 rounded-2 mb-2 mb-lg-0 w-auto text-nowrap d-inline-block me-lg-3"
+                            >
+                              ZOBAA 建議
+                            </p>
+                            <p class="fs-8 fs-lg-7 lh-base text-primary">
+                              走進瑪黑區，最容易與巴黎風格不期而遇 ☕️
+                            </p>
+                          </div>
+                          <a
+                            class="btn btn-dark border-0 w-100 d-flex align-items-center justify-content-between rounded-pill px-5 py-4 fw-bold"
+                            href=""
+                          >
+                            開啟我的巴黎報險<span
+                              class="material-symbols-outlined align-bottom rounded-circle bg-white text-black p-1"
+                            >
+                              arrow_right_alt
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="map-number">3</div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="map-card d-lg-flex position-relative">
+                        <img
+                          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/map-4.png?raw=true"
+                          alt="map-4"
+                          class="mb-2 mb-lg-0 overflow-x-hidden"
+                        />
+                        <div>
+                          <div class="d-flex mb-2">
+                            <p
+                              class="fw-bold text-primary fs-8 fs-lg-7 py-2 px-4 bg-primary-10 rounded-2 me-2"
+                            >
+                              大洋洲
+                            </p>
+                            <p
+                              class="fw-bold text-primary fs-8 fs-lg-7 py-2 px-4 bg-primary-10 rounded-2"
+                            >
+                              澳洲雪梨
+                            </p>
+                          </div>
+                          <h3 class="fs-3 fs-lg-1 fw-bold mb-2">
+                            城市與大自然的交會
+                          </h3>
+                          <p
+                            class="fs-8 fs-lg-7 lh-base text-neutral-80 mb-6 mb-lg-7"
+                          >
+                            清晨在海灘做瑜珈，午後漫步歌劇院，享受城市的節奏與野性的呼喚。
+                          </p>
+
+                          <div
+                            class="mb-6 mb-lg-7 d-lg-flex align-items-lg-center"
+                          >
+                            <p
+                              class="p-2 fw-bold text-primary fs-8 bg-primary-10 rounded-2 mb-2 mb-lg-0 w-auto text-nowrap d-inline-block me-lg-3"
+                            >
+                              ZOBAA 建議
+                            </p>
+                            <p class="fs-8 fs-lg-7 lh-base text-primary">
+                              別錯過傍晚在雪梨港看日落＋欣賞歌劇院夜燈 ✨
+                            </p>
+                          </div>
+                          <a
+                            class="btn btn-dark border-0 w-100 d-flex align-items-center justify-content-between rounded-pill px-5 py-4 fw-bold"
+                            href=""
+                          >
+                            現在就飛向南半球<span
+                              class="material-symbols-outlined align-bottom rounded-circle bg-white text-black p-1"
+                            >
+                              arrow_right_alt
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="map-number">4</div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="map-card d-lg-flex position-relative">
+                        <img
+                          src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/map-5.png?raw=true"
+                          alt="map-5"
+                          class="mb-2 mb-lg-0 overflow-x-hidden"
+                        />
+                        <div>
+                          <div class="d-flex mb-2">
+                            <p
+                              class="fw-bold text-primary fs-8 fs-lg-7 py-2 px-4 bg-primary-10 rounded-2 me-2"
+                            >
+                              非洲
+                            </p>
+                            <p
+                              class="fw-bold text-primary fs-8 fs-lg-7 py-2 px-4 bg-primary-10 rounded-2"
+                            >
+                              埃及開羅
+                            </p>
+                          </div>
+                          <h3 class="fs-3 fs-lg-1 fw-bold mb-2">
+                            穿越千年時光的沙漠冒險
+                          </h3>
+                          <p
+                            class="fs-8 fs-lg-7 lh-base text-neutral-80 mb-6 mb-lg-7"
+                          >
+                            乘著駱駝走過古老遺跡，抬頭仰望太陽神的光芒，在歷史與傳說之間迷失。
+                          </p>
+
+                          <div
+                            class="mb-6 mb-lg-7 d-lg-flex align-items-lg-center"
+                          >
+                            <p
+                              class="p-2 fw-bold text-primary fs-8 bg-primary-10 rounded-2 mb-2 mb-lg-0 w-auto text-nowrap d-inline-block me-lg-3"
+                            >
+                              ZOBAA 建議
+                            </p>
+                            <p class="fs-8 fs-lg-7 lh-base text-primary">
+                              建議早上 8 點前到吉薩金字塔，避開人潮與烈日 ☀️
+                            </p>
+                          </div>
+                          <a
+                            class="btn btn-dark border-0 w-100 d-flex align-items-center justify-content-between rounded-pill px-5 py-4 fw-bold"
+                            href=""
+                          >
+                            揭開古文明的面紗<span
+                              class="material-symbols-outlined align-bottom rounded-circle bg-white text-black p-1"
+                            >
+                              arrow_right_alt
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="map-number">5</div>
+                    </div>
+                  </div>
+                  <div class="swiper-pagination map-pagination"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container py-7 py-lg-11 pe-0 pe-lg-3">
+        <div class="position-relative mb-7 mb-lg-9">
+          <h3 class="text-primary fw-bold display-lg-1 mb-2">搜尋墨爾本嗎？</h3>
+          <h3 class="text-primary fw-bold display-lg-1">來點行程參考！</h3>
+          <img
+            src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/bg-%23.svg"
+            alt="bg-#"
+            class="bg-pound position-absolute top-0 start-0 translate-middle z-n1"
+          />
+        </div>
+        <div
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          class="travel-card-group position-relative"
+        >
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#" class="travel-card">
+                  <div class="travel-card-img-container position-relative mb-4">
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/journey-1.png?raw=true"
+                      alt="journey-1"
+                    />
+                    <button class="btn-love p-0 position-absolute top-0 end-0">
+                      <span class="material-icons-outlined icon-love">
+                        favorite_border
+                      </span>
+                    </button>
+                  </div>
+                  <h4 class="fw-bold fs-7 mb-2 lh-base">
+                    【獨家優惠】布萊頓彩色小屋＋森林蒸汽火車一日遊
+                  </h4>
+                  <div class="d-flex mb-2">
+                    <p
+                      class="fs-8 text-primary bg-primary-10 px-2 py-1 rounded-3 me-2"
+                    >
+                      即買即用
+                    </p>
+                    <p
+                      class="fs-8 text-primary bg-primary-10 px-2 py-1 rounded-3 me-2"
+                    >
+                      5 天前可免費取消
+                    </p>
+                  </div>
+                  <div class="mb-4 border-bottom" aria-label="breadcrumb">
+                    <div class="breadcrumb">
+                      <div class="breadcrumb-item d-flex align-items-center">
+                        <span
+                          class="material-icons-outlined icon-star align-bottom me-1"
+                        >
+                          star
+                        </span>
+                        <p class="fs-8">
+                          4.2<span class="ms-1 text-neutral-60">(333)</span>
+                        </p>
+                      </div>
+                      <div class="breadcrumb-item d-flex align-items-center">
+                        <p class="fs-8">500+ 個已訂購</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="fw-bold fs-6 text-primary">NT$ 4,220</h3>
+                    <p class="fs-8 text-neutral-60"><del>NT$ 5,220</del></p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="travel-card">
+                  <div class="travel-card-img-container position-relative mb-4">
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/journey-2.png?raw=true"
+                      alt="journey-2"
+                    />
+                    <button class="btn-love p-0 position-absolute top-0 end-0">
+                      <span class="material-icons-outlined icon-love">
+                        favorite_border
+                      </span>
+                    </button>
+                  </div>
+                  <h4 class="fw-bold fs-7 mb-2 lh-base">
+                    【無尾熊動物園＋企鵝歸巢雙享之旅
+                  </h4>
+                  <div class="d-flex mb-2">
+                    <p
+                      class="fs-8 text-primary bg-primary-10 px-2 py-1 rounded-3 me-2"
+                    >
+                      即買即用
+                    </p>
+                    <p
+                      class="fs-8 text-primary bg-primary-10 px-2 py-1 rounded-3 me-2"
+                    >
+                      7 天前可免費取消
+                    </p>
+                  </div>
+                  <div class="mb-4 border-bottom" aria-label="breadcrumb">
+                    <div class="breadcrumb">
+                      <div class="breadcrumb-item d-flex align-items-center">
+                        <span
+                          class="material-icons-outlined icon-star align-bottom me-1"
+                        >
+                          star
+                        </span>
+                        <p class="fs-8">
+                          4.2<span class="ms-1 text-neutral-60">(333)</span>
+                        </p>
+                      </div>
+                      <div class="breadcrumb-item d-flex align-items-center">
+                        <p class="fs-8">500+ 個已訂購</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="fw-bold fs-6 text-primary">NT$ 3,890</h3>
+                    <p class="fs-8 text-neutral-60"><del>NT$ 4,920</del></p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="travel-card">
+                  <div class="travel-card-img-container position-relative mb-4">
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/journey-3.png?raw=true"
+                      alt="journey-3"
+                    />
+                    <button class="btn-love p-0 position-absolute top-0 end-0">
+                      <span class="material-icons-outlined icon-love">
+                        favorite_border
+                      </span>
+                    </button>
+                  </div>
+                  <h4 class="fw-bold fs-7 mb-2 lh-base">
+                    大洋路經典一日遊｜中文導覽！體驗澳洲最夢幻的海岸線
+                  </h4>
+                  <div class="d-flex mb-2">
+                    <p
+                      class="fs-8 text-primary bg-primary-10 px-2 py-1 rounded-3 me-2"
+                    >
+                      中文導覽
+                    </p>
+                    <p
+                      class="fs-8 text-primary bg-primary-10 px-2 py-1 rounded-3 me-2"
+                    >
+                      5 天前可免費取消
+                    </p>
+                  </div>
+                  <div class="mb-4 border-bottom" aria-label="breadcrumb">
+                    <div class="breadcrumb">
+                      <div class="breadcrumb-item d-flex align-items-center">
+                        <span
+                          class="material-icons-outlined icon-star align-bottom me-1"
+                        >
+                          star
+                        </span>
+                        <p class="fs-8">
+                          4.2<span class="ms-1 text-neutral-60">(333)</span>
+                        </p>
+                      </div>
+                      <div class="breadcrumb-item d-flex align-items-center">
+                        <p class="fs-8">500+ 個已訂購</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="fw-bold fs-6 text-primary">NT$ 3,690</h3>
+                    <p class="fs-8 text-neutral-60"><del>NT$ 4,500</del></p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="travel-card">
+                  <div class="travel-card-img-container position-relative mb-4">
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/journey-4.png?raw=true"
+                      alt="journey-4"
+                    />
+                    <button class="btn-love p-0 position-absolute top-0 end-0">
+                      <span class="material-icons-outlined icon-love">
+                        favorite_border
+                      </span>
+                    </button>
+                  </div>
+                  <h4 class="fw-bold fs-7 mb-2 lh-base">
+                    墨爾本市區導覽｜壁畫巷＋隱藏咖啡廳之旅，體驗本地咖啡文化、隱藏小巷拍照
+                  </h4>
+                  <div class="d-flex mb-2">
+                    <p
+                      class="fs-8 text-primary bg-primary-10 px-2 py-1 rounded-3 me-2"
+                    >
+                      專業導覽
+                    </p>
+                    <p
+                      class="fs-8 text-primary bg-primary-10 px-2 py-1 rounded-3 me-2"
+                    >
+                      3 天前可免費取消
+                    </p>
+                  </div>
+                  <div class="mb-4 border-bottom" aria-label="breadcrumb">
+                    <div class="breadcrumb">
+                      <div class="breadcrumb-item d-flex align-items-center">
+                        <span
+                          class="material-icons-outlined icon-star align-bottom me-1"
+                        >
+                          star
+                        </span>
+                        <p class="fs-8">
+                          4.2<span class="ms-1 text-neutral-60">(333)</span>
+                        </p>
+                      </div>
+                      <div class="breadcrumb-item d-flex align-items-center">
+                        <p class="fs-8">500+ 個已訂購</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="fw-bold fs-6 text-primary">NT$ 1,280</h3>
+                    <p class="fs-8 text-neutral-60"><del>NT$ 2,480</del></p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="travel-card">
+                  <div class="travel-card-img-container position-relative mb-4">
+                    <img
+                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/journey-1.png?raw=true"
+                      alt="journey-1"
+                    />
+                    <button class="btn-love p-0 position-absolute top-0 end-0">
+                      <span class="material-icons-outlined icon-love">
+                        favorite_border
+                      </span>
+                    </button>
+                  </div>
+                  <h4 class="fw-bold fs-7 mb-2 lh-base">
+                    【獨家優惠】布萊頓彩色小屋＋森林蒸汽火車一日遊
+                  </h4>
+                  <div class="d-flex mb-2">
+                    <p
+                      class="fs-8 text-primary bg-primary-10 px-2 py-1 rounded-3 me-2"
+                    >
+                      即買即用
+                    </p>
+                    <p
+                      class="fs-8 text-primary bg-primary-10 px-2 py-1 rounded-3 me-2"
+                    >
+                      5 天前可免費取消
+                    </p>
+                  </div>
+                  <div class="mb-4 border-bottom" aria-label="breadcrumb">
+                    <div class="breadcrumb">
+                      <div class="breadcrumb-item d-flex align-items-center">
+                        <span
+                          class="material-icons-outlined icon-star align-bottom me-1"
+                        >
+                          star
+                        </span>
+                        <p class="fs-8">
+                          4.2<span class="ms-1 text-neutral-60">(333)</span>
+                        </p>
+                      </div>
+                      <div class="breadcrumb-item d-flex align-items-center">
+                        <p class="fs-8">500+ 個已訂購</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <h3 class="fw-bold fs-6 text-primary">NT$ 4,220</h3>
+                    <p class="fs-8 text-neutral-60"><del>NT$ 5,220</del></p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="travel-custom-prev shadow">
+            <span class="material-icons-outlined">arrow_back</span>
+          </div>
+          <div class="travel-custom-next shadow">
+            <span class="material-icons-outlined">arrow_forward</span>
+          </div>
+        </div>
+      </div>
+      <div class="marquee-container py-2">
+        <div class="marquee-content">
+          <img
+            src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/bg-title-1.svg"
+            class="me-2 me-lg-6"
+          />
+          <img
+            src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/bg-title-2.svg"
+            class="me-2 me-lg-6"
+          />
+          <img
+            src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/bg-title-3.svg"
+            class="me-2 me-lg-6"
+          />
+          <img
+            src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/bg-title-1.svg"
+            class="me-2 me-lg-6"
+          />
+          <img
+            src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/bg-title-2.svg"
+            class="me-2 me-lg-6"
+          />
+          <img
+            src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/bg-title-3.svg"
+            class="me-2 me-lg-6"
+          />
+        </div>
+      </div>
+      <div class="bg-line-2 position-relative overflow-hidden">
+        <div class="container py-7 py-lg-11">
+          <div class="row">
+            <img
+              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/card.png?raw=true"
+              alt="card"
+              class="mb-6"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            />
+            <div class="position-relative">
+              <div
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="500"
+                class="info-card-group d-lg-flex justify-content-lg-between"
+              >
+                <div class="me-lg-4">
+                  <h4 class="fs-lg-1 fs-2 fw-bold text-primary mb-4 mb-lg-6">
+                    為什麼選擇 ZOBAA ?
+                  </h4>
+                  <p class="text-primary-80 fs-8 fs-lg-7 lh-base mb-6">
+                    不只是帶你抵達目的地，更在每一次出發前，替你預想所有細節。<br />
+                    ZOBAA 希望你能放心探索世界，把記憶留給旅程本身。
+                  </p>
+                  <a
+                    class="btn btn-dark border-0 d-flex align-items-center rounded-pill px-5 py-4 fw-bold d-lg-inline-flex d-none"
+                    href="location.html"
+                  >
+                    立即探索我們的精心旅程<span
+                      class="material-symbols-outlined align-bottom rounded-circle bg-white text-black ms-4 p-1"
+                    >
+                      arrow_right_alt
+                    </span>
+                  </a>
+                </div>
+                <div class="d-sm-flex mb-6 mb-lg-0">
+                  <!-- 第一張卡片 -->
+                  <div class="info-card bg-white mb-4 mb-sm-0 me-sm-4 d-flex">
+                    <div class="my-auto w-100">
+                      <div
+                        class="position-relative fw-bold fs-lg-1 fs-2 text-primary d-inline-block mb-2"
+                      >
+                        8 年
+                        <span
+                          class="material-icons-outlined position-absolute top-0 start-100 translate-middle fw-bold icon-add"
+                        >
+                          add
+                        </span>
+                      </div>
+                      <p class="text-primary-80 fw-bold fs-7 fs-lg-6">
+                        旅遊企劃經驗
+                      </p>
+                    </div>
+                  </div>
+
+                  <!-- 第二張卡片 -->
+                  <div class="info-card bg-white mb-4 mb-sm-0 d-flex">
+                    <div class="my-auto w-100">
+                      <div
+                        class="position-relative fw-bold fs-lg-1 fs-2 text-primary d-inline-block mb-2"
+                      >
+                        30,000
+                        <span
+                          class="material-icons-outlined position-absolute top-0 start-100 translate-middle fw-bold icon-add"
+                        >
+                          add
+                        </span>
+                      </div>
+                      <p class="text-primary-80 fw-bold fs-7 fs-lg-6">
+                        旅人五星好評
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <a
+                  class="btn btn-dark border-0 d-flex align-items-center rounded-pill px-5 py-4 fw-bold d-lg-none justify-content-between"
+                  href=""
+                >
+                  立即探索我們的精心旅程<span
+                    class="material-symbols-outlined align-bottom rounded-circle bg-white text-black ms-4 p-1"
+                  >
+                    arrow_right_alt
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/bg-up.svg"
+          alt="bg-up"
+          class="position-absolute top-0 start-0 translate-middle"
+        />
+        <img
+          src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/bg-up.svg"
+          alt="bg-up"
+          class="bg-up-sm position-absolute top-110 start-80 pe-6 translate-middle"
+        />
+      </div>
+    </main>
+    <%- include('./layout/footer'); -%>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+      integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

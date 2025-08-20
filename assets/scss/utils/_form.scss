@@ -1,0 +1,33 @@
+.form-control {
+  color: $neutral-60;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.form-label {
+  color: $neutral-80;
+}
+
+.form-check-input {
+  width: 24px;
+  height: 24px;
+}
+
+.login-form {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* 水平置中表單內容 */
+  align-items: center; /* 垂直置中表單內容 */
+  @media (min-width: 992px) {
+    flex: 1 1 auto;
+    max-width: 1280px;
+    min-width: 327px;
+  }
+}
+
+.form-content {
+  width: 100%;
+  @media (min-width: 992px) {
+    max-width: 604px;
+  }
+}

@@ -1,0 +1,154 @@
+.recommend-card-group {
+  a {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .swiper-slide {
+    width: 277px;
+    border-radius: 24px !important;
+  }
+
+  img {
+    object-fit: cover;
+    height: 400px !important;
+  }
+
+  .card {
+    border-radius: 24px !important;
+  }
+
+  .swiper {
+    width: 100%;
+    height: auto;
+  }
+
+  .swiper-pagination-bullet {
+    background: $neutral-40;
+    border-radius: 50%;
+    margin: 0 4px;
+    opacity: 100%;
+    transition: all 0.3s ease;
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 24px;
+    height: 8px;
+    background: $primary-40;
+    border-radius: 6px;
+  }
+}
+
+@media (min-width: 992px) {
+  .recommend-card-group {
+    img {
+      height: 600px !important;
+      object-fit: cover;
+    }
+
+    .swiper {
+      height: 600px;
+    }
+
+    .swiper-slide {
+      flex-grow: 1;
+      flex-basis: 0;
+      max-width: 269px;
+      border-radius: 32px;
+      transition: max-width 0.5s ease, flex-grow 0.5s ease;
+    }
+
+    .swiper-slide a {
+      display: none;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease;
+    }
+
+    .swiper-slide.active-slide,
+    .swiper-slide.hover-slide {
+      flex-grow: 2;
+      max-width: 416px;
+
+      a {
+        display: flex;
+        justify-content: space-between;
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+
+    .card-img-overlay {
+      padding: 32px;
+    }
+  }
+}
+
+.map-card-group {
+  .swiper-pagination-bullet {
+    background: $neutral-40;
+    border-radius: 50%;
+    margin: 0 4px;
+    opacity: 100%;
+    transition: all 0.3s ease;
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 24px;
+    height: 8px;
+    background: $primary;
+    border-radius: 6px;
+  }
+  .swiper-pagination-bullet {
+    background: $neutral-40;
+    border-radius: 50%;
+    margin: 0 4px;
+    background: $white;
+    opacity: 100%;
+    transition: all 0.3s ease;
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 24px;
+    height: 8px;
+    background: $primary;
+    border-radius: 6px;
+  }
+  @media (min-width: 992px) {
+    .swiper-pagination {
+      display: none;
+    }
+  }
+}
+
+.login-cover-group {
+  .swiper-pagination-bullet {
+    background: $neutral-40;
+    border-radius: 50%;
+    margin: 0 4px;
+    opacity: 100%;
+    transition: all 0.3s ease;
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 24px;
+    height: 8px;
+    background: $primary;
+    border-radius: 6px;
+  }
+  .swiper-pagination-bullet {
+    background: $neutral-40;
+    border-radius: 50%;
+    margin: 0 4px;
+    background: $white;
+    opacity: 100%;
+    transition: all 0.3s ease;
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 24px;
+    height: 8px;
+    background: $primary;
+    border-radius: 6px;
+  }
+}

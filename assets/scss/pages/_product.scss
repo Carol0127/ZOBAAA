@@ -1,0 +1,165 @@
+.product-card {
+  border-radius: 24px !important;
+}
+
+.bg-plan-pound {
+  height: 72px;
+  width: 72px;
+  opacity: 20%;
+  margin-top: -24px;
+}
+
+.accordion {
+  --bs-accordion-inner-border-radius: 20px;
+  --bs-accordion-border-radius: 20px;
+  --bs-accordion-border-color: none;
+}
+
+.accordion-item:first-of-type > .accordion-header .accordion-button {
+  padding: 24px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: $primary;
+  color: $primary-10;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 0px;
+}
+
+.accordion-item {
+  border-radius: 20px;
+}
+
+.accordion-button:hover {
+  z-index: 0;
+}
+
+.accordion-header-radius {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.plan-header-accordion {
+  img {
+    width: 200px;
+    height: 132px;
+  }
+}
+
+.plan-card-info li {
+  padding: 16px;
+  border-bottom: 1px solid $neutral-40;
+  h6 {
+    width: 120px;
+    height: 24px;
+  }
+}
+
+//日歷
+.air-datepicker-body--day-name {
+  color: $neutral-80 !important;
+}
+
+.air-datepicker-cell.-selected- {
+  background: $primary-10 !important;
+  color: $black !important;
+}
+
+.air-datepicker-cell.-selected-.-focus- {
+  background: $primary-10 !important;
+}
+
+.air-datepicker-cell.-disabled- {
+  text-decoration: line-through !important;
+}
+
+.air-datepicker-nav {
+  padding: 16px !important;
+}
+
+.air-datepicker-nav--title {
+  order: -1;
+  margin-right: auto;
+  font-size: 20px;
+  color: black;
+}
+
+.air-datepicker {
+  --adp-width: 100% !important;
+  border-radius: 20px !important;
+  font-weight: 700;
+}
+
+.air-datepicker--content {
+  padding: 16px !important;
+}
+
+.air-datepicker-cell.-disabled- {
+  font-weight: normal;
+}
+
+/* 外層容器，用於控制初始可見高度和隱藏超出部分 */
+.content-wrapper {
+  position: relative;
+  max-height: 400px;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+  @media (min-width: 992px) {
+    max-height: 1013px;
+  }
+}
+
+/* 霧化效果的漸變遮罩 */
+.content-wrapper::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 256px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  z-index: 1;
+  pointer-events: none;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* 展開狀態的樣式 */
+.content-wrapper.expanded {
+  max-height: 9999px; /* 設定一個足夠大的高度 */
+  overflow: visible;
+}
+
+/* 展開狀態下，隱藏漸層遮罩 */
+.content-wrapper.expanded::after {
+  opacity: 0;
+}
+
+.wrapper-btn {
+  width: 265px;
+}
+
+.navbar-stickytop-custom {
+  position: sticky;
+  top: 60px;
+  .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    background-color: $neutral-10;
+    color: $primary;
+    border-radius: 0px;
+    border-left: 4px solid $primary;
+    font-weight: 700;
+  }
+  .nav-link {
+    color: $neutral-60;
+  }
+}
+
+.commit-people {
+  width: 60px;
+  height: 60px;
+}

@@ -1,0 +1,35 @@
+.nav-underline {
+  --bs-nav-underline-gap: 0rem;
+
+  .nav-link {
+    margin-right: 32px;
+    padding: 12px 0px;
+    position: relative;
+    border: none;
+    color: $neutral-80;
+  }
+
+  .nav-link.active {
+    color: $primary;
+  }
+
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 4px; /* 粗細 */
+    background-color: transparent; /* 預設透明 */
+    border-radius: 999px; /* 圓潤端點 */
+    transform: translateX(-50%);
+    transition: all 0.3s ease; /* 動畫 */
+  }
+
+  .nav-link.active::after {
+    width: 50%; /* 底線長度 */
+    background-color: $primary;
+  }
+
+  border-bottom: 1px solid $neutral-40;
+}

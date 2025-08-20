@@ -1,0 +1,31 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "./utils/variables";
+@import "../../node_modules/bootstrap";
+
+@import "./utils/utilities";
+@import "bootstrap/scss/utilities/api";
+@import "./utils/form";
+
+@import "./base/base";
+
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
+
+@import "./components/btn";
+@import "./components/form";
+@import "./components/badge";
+@import "./components/recommedn-card";
+@import "./components/map-navtab";
+@import "./components/marquee";
+@import "./components/travel-card";
+@import "./components/nav-breadcrumb";
+@import "./components/nav-underline";
+@import "./components/grid-swiper";
+@import "./components/quantity-btn";
+
+@import "./pages/index.scss";
+@import "./pages/login-modal";
+@import "./pages/user";
+@import "./pages/location";
+@import "./pages/product";
+@import "./pages/cart";

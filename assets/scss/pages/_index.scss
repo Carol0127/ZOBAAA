@@ -1,0 +1,253 @@
+.index-title {
+  font-size: 100px;
+}
+
+.bg-hero {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/hero-bg.png?raw=true);
+  background-position: 70% center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 112px;
+}
+
+.bg-deco {
+  background-color: white;
+  @media (min-width: 992px) {
+    background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/deco-bg.svg);
+    background-position: center 112px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+}
+
+.slant-section {
+  background-color: $primary-10;
+  padding: 80px 0;
+  clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
+  margin: 80px 0;
+}
+
+.bg-line {
+  background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/user/bg-line.svg);
+  background-color: #f4f4f4;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center 30%;
+  padding-top: 64px;
+  @media (min-width: 992px) {
+    padding-top: 72px;
+  }
+}
+
+.bg-line-2 {
+  background-image: url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/bg-line.svg);
+  background-color: $primary-40;
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: center 70%;
+}
+
+.bg-up-sm {
+  width: 720px;
+  height: 720px;
+}
+
+.info-card-group {
+  padding: 32px;
+  background-color: rgba(243, 238, 236, 0.5);
+  border-radius: 32px;
+  backdrop-filter: blur(8px);
+}
+.index-lg-search {
+  max-width: 343px;
+  input {
+    max-width: 351px;
+    border-radius: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  .bg-hero {
+    padding-top: 212px;
+  }
+  .index-lg-search {
+    width: 720px;
+    input {
+      width: 728px;
+    }
+  }
+}
+
+.intro-card {
+  border: 1px solid $neutral-40;
+  border-radius: 16px;
+  @media (min-width: 992px) {
+    border-radius: 24px;
+    width: 306px;
+  }
+}
+
+.map-card-group {
+  .swiper-slide {
+    margin-top: 25px;
+    width: 312px;
+    @media (min-width: 992px) {
+      margin-top: 80px;
+    }
+  }
+
+  .swiper-wrapper {
+    align-items: stretch;
+  }
+
+  .map-card {
+    background-color: white;
+    border-radius: 24px;
+    padding: 16px;
+    img {
+      border-radius: 16px;
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .swiper-slide {
+      width: 746px;
+    }
+    .map-card {
+      border-radius: 32px;
+      padding-right: 32px;
+      img {
+        max-width: 300px;
+        height: 412px;
+        margin-right: 32px;
+      }
+    }
+  }
+}
+
+.map-number {
+  font-family: "Poppins", Noto sans tc;
+  font-size: 100px;
+  font-style: italic;
+  color: #dfd2cd;
+  position: absolute;
+  top: -40px;
+  left: 16px;
+
+  @media (min-width: 992px) {
+    font-size: 200px;
+    top: -100px;
+    left: 20px;
+  }
+}
+
+.deco-text-1 {
+  width: 130px;
+  height: 68px;
+  margin-top: -50px;
+  margin-left: -35px;
+
+  @media (min-width: 992px) {
+    width: 172px;
+    height: 90px;
+    margin-top: -100px;
+    margin-left: -50px;
+  }
+}
+
+.icon-star {
+  font-size: 12px !important;
+  color: #f6bd2b;
+}
+
+.icon-love {
+  color: white;
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(12px);
+  border-end-start-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.travel-card-group {
+  .swiper-slide {
+    width: 306px;
+  }
+  .travel-card {
+    width: 306px;
+    height: 419px;
+    img {
+      border-radius: 20px;
+    }
+    h4 {
+      min-height: 3em;
+    }
+  }
+
+  .travel-custom-prev,
+  .travel-custom-next {
+    display: none;
+    @media (min-width: 1200px) {
+      display: flex;
+      position: absolute;
+      top: 50%;
+      font-size: 24px;
+      font-weight: bold;
+      color: $primary;
+      padding: 16px;
+      border-radius: 12px;
+    }
+  }
+
+  .travel-custom-prev {
+    left: -80px;
+  }
+
+  .travel-custom-next {
+    right: -80px;
+  }
+}
+
+.bg-pound {
+  height: 52px;
+  width: 52px;
+  margin-top: 10px;
+  margin-left: 15px;
+  @media (min-width: 992px) {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+.info-card-group {
+  padding: 32px;
+  background-color: rgba(243, 238, 236, 0.5);
+  border-radius: 32px;
+  backdrop-filter: blur(8px);
+  position: relative;
+  z-index: 1;
+  .info-card {
+    flex: 1 1 auto;
+    max-width: 100%;
+    padding: 24px;
+    border-radius: 16px;
+    border: 1px solid #e9e9e9;
+    margin-bottom: 16px; // 小螢幕換行用
+
+    @media (min-width: 992px) {
+      flex: 0 0 300px;
+      padding-left: 32px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.icon-add {
+  margin-top: 15px;
+  margin-left: 8px;
+}

@@ -1,0 +1,684 @@
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="login-modal"
+  tabindex="-1"
+  aria-labelledby="login-modal"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-fullscreen">
+    <div
+      class="modal-content justify-content-center container-fluid p-6 p-lg-7"
+    >
+      <div
+        class="login-cover-group d-flex justify-content-between align-items-center"
+      >
+        <div class="swiper d-none d-lg-flex me-6">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide overflow-hidden">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/login/cover-1.png?raw=true"
+                alt="login-cover-1"
+                class="z-n1"
+              />
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/bg-%23.svg"
+                alt=""
+                class="login-pound position-absolute top-0 start-0"
+              />
+              <div class="login-title position-absolute bottom-0 start-0">
+                <h2 class="fw-bold text-primary-60"># ZOBAAAAA !</h2>
+                <h3 class="fw-bold fs-lg-1">把旅行變成，</h3>
+                <h3 class="fw-bold fs-lg-1">生活的養分。</h3>
+              </div>
+            </div>
+            <div class="swiper-slide overflow-hidden">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/map-5.png?raw=true"
+                alt="login-cover-2"
+                class="z-n1"
+              />
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/bg-%23.svg"
+                alt=""
+                class="login-pound position-absolute top-0 start-0"
+              />
+              <div class="login-title position-absolute bottom-0 start-0">
+                <h2 class="fw-bold text-primary-60"># ZOBAAAAA !</h2>
+                <h3 class="fw-bold fs-lg-1">把旅行變成，</h3>
+                <h3 class="fw-bold fs-lg-1">生活的養分。</h3>
+              </div>
+            </div>
+            <div class="swiper-slide overflow-hidden">
+              <img
+                src="https://images.pexels.com/photos/33286778/pexels-photo-33286778.jpeg"
+                alt="login-cover-3"
+                class="z-n1"
+              />
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/bg-%23.svg"
+                alt=""
+                class="login-pound position-absolute top-0 start-0"
+              />
+              <div class="login-title position-absolute bottom-0 start-0">
+                <h2 class="fw-bold text-primary-60"># ZOBAAAAA !</h2>
+                <h3 class="fw-bold fs-lg-1">把旅行變成，</h3>
+                <h3 class="fw-bold fs-lg-1">生活的養分。</h3>
+              </div>
+            </div>
+          </div>
+          <div class="login-pagination swiper-pagination"></div>
+        </div>
+        <div class="login-form">
+          <div class="form-content">
+            <h3
+              class="fs-lg-1 fs-2 fw-bold mb-6 mb-lg-7"
+              aria-labelledby="loginModalLabel"
+            >
+              歡迎回來！
+            </h3>
+            <ul class="list-unstyled mb-7">
+              <li class="mb-2 mb-lg-4 position-relative">
+                <a
+                  class="w-100 btn btn-white border-neutral-40 d-flex justify-content-center text-neutral-80 p-4"
+                  href="#"
+                >
+                  使用 Google 帳號登入
+                </a>
+                <img
+                  src="/assets/images/ic_google.png"
+                  alt="login-icon"
+                  class="login-icon position-absolute top-50 start-0 translate-middle-y ms-4"
+                />
+              </li>
+              <li class="mb-2 mb-lg-4 position-relative">
+                <a
+                  class="w-100 btn btn-white border-neutral-40 d-flex justify-content-center text-neutral-80 p-4"
+                  href="#"
+                >
+                  使用 Facebook 帳號登入
+                </a>
+                <img
+                  src="/assets/images/ic_facebook.png"
+                  alt="login-icon"
+                  class="login-icon position-absolute top-50 start-0 translate-middle-y ms-4"
+                />
+              </li>
+              <li class="mb-2 mb-lg-4 position-relative">
+                <a
+                  class="w-100 btn btn-white border-neutral-40 d-flex justify-content-center text-neutral-80 p-4"
+                  href="#"
+                >
+                  使用 Apple 帳號登入
+                </a>
+                <img
+                  src="/assets/images/ic_apple.png"
+                  alt="login-icon"
+                  class="login-icon position-absolute top-50 start-0 translate-middle-y ms-4"
+                />
+              </li>
+            </ul>
+            <div>
+              <h5 class="fs-7 fw-bold mb-4">或使用 ZOBAA 帳號登入</h5>
+              <form action="">
+                <div class="mb-4">
+                  <label for="loginEmail" class="form-label"
+                    >電子信箱<span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="loginEmail"
+                    placeholder="請輸入電子信箱"
+                    required
+                  />
+                </div>
+                <div class="mb-4">
+                  <label for="loginPassword" class="form-label"
+                    >密碼<span class="text-danger">*</span></label
+                  >
+                  <div class="position-relative mb-2">
+                    <input
+                      type="password"
+                      class="form-control password-input"
+                      id="loginPassword"
+                      placeholder="請輸入密碼"
+                      required
+                    />
+                    <button
+                      type="button"
+                      class="password-eye position-absolute top-50 end-0 translate-middle-y fs-5 d-none"
+                    >
+                      <i class="bi bi-eye"></i>
+                    </button>
+                  </div>
+                  <div class="d-flex justify-content-between mb-7">
+                    <div class="form-check d-flex align-items-center">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="loginRemember"
+                      />
+                      <label class="ms-2 form-check-label" for="loginRemember">
+                        記住帳號
+                      </label>
+                    </div>
+                    <a
+                      class="text-neutral-80"
+                      data-bs-toggle="modal"
+                      data-bs-target="#login-modal2"
+                      data-bs-dismiss="modal"
+                      >忘記密碼？</a
+                    >
+                  </div>
+                  <button
+                    type="submit"
+                    class="btn btn-neutral-40 w-100 fw-semibold text-neutral-60 py-4 text-center mb-6 mb-lg-7"
+                  >
+                    立即登入
+                  </button>
+                  <div class="d-flex">
+                    <p class="text-neutral-80 me-2">沒有 ZOBAA 帳號嗎？</p>
+                    <a
+                      class="text-primary text-decoration-underline fw-bold"
+                      data-bs-toggle="modal"
+                      data-bs-target="#login-modal2"
+                      data-bs-dismiss="modal"
+                      >立即註冊</a
+                    >
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div
+  class="modal fade"
+  id="login-modal2"
+  tabindex="-1"
+  aria-labelledby="login-modal2"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-fullscreen">
+    <div
+      class="modal-content justify-content-center container-fluid p-6 p-lg-7"
+    >
+      <div
+        class="login-cover-group d-flex justify-content-between align-items-center"
+      >
+        <div class="swiper d-none d-lg-flex me-6">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide overflow-hidden">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/login/cover-1.png?raw=true"
+                alt="login-cover-1"
+                class="z-n1"
+              />
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/bg-%23.svg"
+                alt=""
+                class="login-pound position-absolute top-0 start-0"
+              />
+              <div class="login-title position-absolute bottom-0 start-0">
+                <h2 class="fw-bold text-primary-60"># ZOBAAAAA !</h2>
+                <h3 class="fw-bold fs-lg-1">把旅行變成，</h3>
+                <h3 class="fw-bold fs-lg-1">生活的養分。</h3>
+              </div>
+            </div>
+            <div class="swiper-slide overflow-hidden">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/index/map-5.png?raw=true"
+                alt="login-cover-2"
+                class="z-n1"
+              />
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/bg-%23.svg"
+                alt=""
+                class="login-pound position-absolute top-0 start-0"
+              />
+              <div class="login-title position-absolute bottom-0 start-0">
+                <h2 class="fw-bold text-primary-60"># ZOBAAAAA !</h2>
+                <h3 class="fw-bold fs-lg-1">把旅行變成，</h3>
+                <h3 class="fw-bold fs-lg-1">生活的養分。</h3>
+              </div>
+            </div>
+            <div class="swiper-slide overflow-hidden">
+              <img
+                src="https://images.pexels.com/photos/33286778/pexels-photo-33286778.jpeg"
+                alt="login-cover-3"
+                class="z-n1"
+              />
+              <img
+                src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/c07852c7f1c21031d6380bb4398e2163f71122c9/2025-week8/index/bg-%23.svg"
+                alt=""
+                class="login-pound position-absolute top-0 start-0"
+              />
+              <div class="login-title position-absolute bottom-0 start-0">
+                <h2 class="fw-bold text-primary-60"># ZOBAAAAA !</h2>
+                <h3 class="fw-bold fs-lg-1">把旅行變成，</h3>
+                <h3 class="fw-bold fs-lg-1">生活的養分。</h3>
+              </div>
+            </div>
+          </div>
+          <div class="login-pagination swiper-pagination"></div>
+        </div>
+        <div class="login-form">
+          <div class="form-content">
+            <h3
+              class="fs-lg-1 fs-2 fw-bold mb-6 mb-lg-7"
+              aria-labelledby="registerModalLabel"
+            >
+              歡迎加入 ZOBAA
+            </h3>
+            <ul class="list-unstyled mb-7">
+              <li class="mb-2 mb-lg-4 position-relative">
+                <a
+                  class="w-100 btn btn-white border-neutral-40 d-flex justify-content-center text-neutral-80 p-4"
+                  href="#"
+                >
+                  使用 Google 帳號登入
+                </a>
+                <img
+                  src="/assets/images/ic_google.png"
+                  alt="login-icon"
+                  class="login-icon position-absolute top-50 start-0 translate-middle-y ms-4"
+                />
+              </li>
+              <li class="mb-2 mb-lg-4 position-relative">
+                <a
+                  class="w-100 btn btn-white border-neutral-40 d-flex justify-content-center text-neutral-80 p-4"
+                  href="#"
+                >
+                  使用 Facebook 帳號登入
+                </a>
+                <img
+                  src="/assets/images/ic_facebook.png"
+                  alt="login-icon"
+                  class="login-icon position-absolute top-50 start-0 translate-middle-y ms-4"
+                />
+              </li>
+              <li class="mb-2 mb-lg-4 position-relative">
+                <a
+                  class="w-100 btn btn-white border-neutral-40 d-flex justify-content-center text-neutral-80 p-4"
+                  href="#"
+                >
+                  使用 Apple 帳號登入
+                </a>
+                <img
+                  src="/assets/images/ic_apple.png"
+                  alt="login-icon"
+                  class="login-icon position-absolute top-50 start-0 translate-middle-y ms-4"
+                />
+              </li>
+            </ul>
+            <div>
+              <h5 class="fs-7 fw-bold mb-4">或使用 ZOBAA 帳號註冊</h5>
+              <form action="">
+                <div class="mb-4">
+                  <label for="registerEmail" class="form-label"
+                    >電子信箱<span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="registerEmail"
+                    placeholder="請輸入電子信箱"
+                    required
+                  />
+                </div>
+                <label for="registerPassword" class="form-label"
+                  >密碼<span class="text-danger">*</span></label
+                >
+                <div class="position-relative mb-4">
+                  <input
+                    type="password"
+                    class="form-control password-input"
+                    id="registerPassword"
+                    placeholder="請輸入密碼"
+                    required
+                  />
+                  <button
+                    type="button"
+                    class="password-eye position-absolute top-50 end-0 translate-middle-y fs-5 d-none"
+                  >
+                    <i class="bi bi-eye"></i>
+                  </button>
+                </div>
+                <label for="registerPasswordcheck" class="form-label"
+                  >確認密碼<span class="text-danger">*</span></label
+                >
+                <div class="position-relative mb-4 mb-lg-7">
+                  <input
+                    type="password"
+                    class="form-control password-input"
+                    id="registerPasswordcheck"
+                    placeholder="請再輸入一次密碼"
+                    required
+                  />
+                  <button
+                    type="button"
+                    class="password-eye position-absolute top-50 end-0 translate-middle-y fs-5 d-none"
+                  >
+                    <i class="bi bi-eye"></i>
+                  </button>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-neutral-40 w-100 fw-semibold text-neutral-60 py-4 text-center mb-4"
+                >
+                  立即註冊
+                </button>
+                <p class="mb-6 mb-lg-7 text-neutral-80">
+                  建立帳號即表示您同意我們的
+                  <a class="text-decoration-underline" href="">服務條款</a> 及
+                  <a class="text-decoration-underline" href="">隱私權政策</a>
+                </p>
+                <div class="d-flex">
+                  <p class="text-neutral-80 me-2">已經有 ZOBAA 帳號了嗎？</p>
+                  <a
+                    class="text-primary fw-bold text-decoration-underline"
+                    data-bs-toggle="modal"
+                    data-bs-target="#login-modal"
+                    data-bs-dismiss="modal"
+                    >立即登入</a
+                  >
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 未登入 -->
+<nav
+  class="navbar navbar-not-login py-3 py-lg-4 bg-lg-opacity-50 fixed-top"
+  id="mainHeader"
+>
+  <div class="container position-relative align-items-center">
+    <div class="d-flex align-items-center me-auto">
+      <a class="navbar-brand p-0 me-6 logo-img" href="index.html"
+        ><img src="/assets/images/LOGO.png" alt="logo"
+      /></a>
+      <form class="position-relative d-none d-lg-block">
+        <span
+          class="material-symbols-outlined align-bottom position-absolute top-50 start-0 translate-middle-y ps-3 text-neutral-60"
+        >
+          search
+        </span>
+
+        <input
+          type="search"
+          class="form-control search-lineheight navbar-lg-search rounded-3 py-2 ps-7"
+          id="navbar-lg-search"
+          placeholder="搜尋景點、地點或城市"
+        />
+      </form>
+    </div>
+    <div class="position-absolute z-1 start-0 end-0 px-4 bg-white">
+      <div class="collapse" id="collapseExample">
+        <div class="d-flex align-items-center">
+          <form class="position-relative w-100">
+            <span
+              class="material-symbols-outlined align-bottom position-absolute top-50 start-0 translate-middle-y ps-3 text-neutral-60"
+            >
+              search
+            </span>
+            <input
+              type="search"
+              class="form-control search-lineheight rounded-2 py-2 ps-7"
+              id="exampleFormControlInput1"
+              placeholder="搜尋景點、地點或城市"
+            />
+          </form>
+          <button
+            type="button"
+            class="btn p-2 border-0 text-neutral-80"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseExample"
+          >
+            <span class="material-symbols-outlined align-bottom"> close </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <button
+      type="button"
+      class="btn p-2 border-0 text-neutral-80 d-lg-none"
+      data-bs-toggle="collapse"
+      data-bs-target="#collapseExample"
+    >
+      <span class="material-symbols-outlined align-bottom"> search </span>
+    </button>
+    <a href="checkout.html" class="btn border-0 py-2 text-neutral-80">
+      <span class="material-symbols-outlined align-bottom">
+        shopping_cart
+      </span>
+    </a>
+    <button
+      class="btn border-0 p-2 text-neutral-80 d-lg-none"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasNotLogin"
+      aria-controls="offcanvasNotLogin"
+      aria-label="Toggle navigation"
+    >
+      <span class="material-symbols-outlined align-bottom"> menu </span>
+    </button>
+    <button
+      class="btn btn-lg btn-primary d-none d-lg-block"
+      data-bs-toggle="modal"
+      data-bs-target="#login-modal"
+    >
+      登入 / 註冊
+    </button>
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasNotLogin"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
+      <div class="offcanvas-header p-6 pb-4">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body pt-0 d-flex flex-column">
+        <div
+          class="not-login d-flex align-items-center pb-4 border-bottom border-1 border-neutral-40 mb-6"
+        >
+          <span class="badage rounded-circle bg-primary-40 me-2 p-1">
+            <span
+              class="text-primary-10 material-symbols-outlined align-bottom"
+            >
+              account_circle
+            </span>
+          </span>
+          <div>
+            <p class="text-primary-100 fw-bold fs-7">訪客</p>
+            <p class="text-primary-80 fs-7">未登入</p>
+          </div>
+        </div>
+        <h6 class="fw-bold text-primary mb-1">歡迎來到 ZOBAA</h6>
+        <p class="fs-7 text-neutral-80">
+          加入會員即可立即訂購、收藏行程，並享相關優惠好禮。
+        </p>
+        <button
+          class="btn btn-primary mt-auto"
+          data-bs-toggle="modal"
+          data-bs-target="#login-modal"
+        >
+          登入 / 註冊
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- 登入 -->
+<nav class="navbar navbar-login py-3 py-lg-4 bg-lg-opacity-50 fixed-top d-none">
+  <div class="container position-relative align-items-center">
+    <div class="d-flex align-items-center me-auto">
+      <a class="navbar-brand p-0 me-6 logo-img" href="index.html"
+        ><img src="/assets/images/LOGO.png" alt="logo"
+      /></a>
+      <form class="position-relative d-none d-lg-block">
+        <span
+          class="material-symbols-outlined align-bottom position-absolute top-50 start-0 translate-middle-y ps-3 text-neutral-60"
+        >
+          search
+        </span>
+
+        <input
+          type="search"
+          class="form-control search-lineheight navbar-lg-search rounded-3 py-2 ps-7"
+          id="navbar-lg-search"
+          placeholder="搜尋景點、地點或城市"
+        />
+      </form>
+    </div>
+    <div class="position-absolute bg-white z-1 start-0 end-0 px-3">
+      <div class="collapse" id="collapseExample">
+        <div class="d-flex align-items-center">
+          <form class="position-relative w-100">
+            <span
+              class="material-symbols-outlined align-bottom position-absolute top-50 start-0 translate-middle-y ps-3 text-neutral-60"
+            >
+              search
+            </span>
+
+            <input
+              type="search"
+              class="form-control search-lineheight rounded-2 py-2 ps-7"
+              id="exampleFormControlInput1"
+              placeholder="搜尋景點、地點或城市"
+            />
+          </form>
+          <button
+            type="button"
+            class="btn p-2 border-0 text-neutral-80"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseExample"
+          >
+            <span class="material-symbols-outlined align-bottom"> close </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <button
+      type="button"
+      class="btn p-2 border-0 text-neutral-80 d-lg-none"
+      data-bs-toggle="collapse"
+      data-bs-target="#collapseExample"
+    >
+      <span class="material-symbols-outlined align-bottom"> search </span>
+    </button>
+    <a href="cart.html" class="btn border-0 py-2 text-neutral-80 me-lg-4"
+      ><span class="position-relative">
+        <span
+          class="position-absolute top-0 start-100 translate-middle badge rounded-circle bg-alert p-0 cart-tag"
+          >2
+        </span>
+        <span class="material-symbols-outlined align-bottom">
+          shopping_cart
+        </span>
+      </span>
+    </a>
+    <button
+      class="btn border-0 p-2 text-neutral-80 d-lg-none"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasLogin"
+      aria-controls="offcanvasLogin"
+      aria-label="Toggle navigation"
+    >
+      <span class="material-symbols-outlined align-bottom"> menu </span>
+    </button>
+    <a href="user.html" class="d-none d-lg-flex align-items-center">
+      <img
+        src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/user/avatar-1.png?raw=true"
+        alt="avatar-1"
+        class="user-img me-2"
+      />
+      <p class="fw-bold text-primary fs-7">Jessica</p>
+    </a>
+    <div
+      class="login-canvas offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasLogin"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
+      <div class="offcanvas-header p-6 pb-4">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body p-6 pt-0 d-flex flex-column">
+        <div
+          class="not-login d-flex align-items-center pb-4 border-bottom border-1 border-neutral-40 mb-4"
+        >
+          <img
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/user/avatar-1.png?raw=true"
+            alt=""
+            class="user-img m-2 ms-0 rounded-circle"
+          />
+
+          <div>
+            <p class="text-primary-100 fw-bold fs-7">Jessica</p>
+            <p class="text-primary-80 fs-7">jessica.yen@gamil.com</p>
+          </div>
+        </div>
+        <ul class="list-unstyled">
+          <li class="py-3">
+            <a
+              class="text-neutral-80 fs-8 d-flex align-items-center"
+              href="user.html"
+            >
+              <span class="material-symbols-outlined align-bottom me-2">
+                article </span
+              >訂單管理</a
+            >
+          </li>
+          <li class="py-3">
+            <a
+              class="text-neutral-80 fs-8 d-flex align-items-center"
+              href="user.html"
+            >
+              <span class="material-symbols-outlined me-2"> favorite </span>
+              我的收藏</a
+            >
+          </li>
+          <li class="py-3">
+            <a
+              class="text-neutral-80 fs-8 d-flex align-items-center"
+              href="user.html"
+            >
+              <span class="material-symbols-outlined me-2"> settings </span>
+              我的收藏</a
+            >
+          </li>
+        </ul>
+        <button
+          class="btn p-0 d-flex justify-content-star mt-auto p-3 text-neutral-80 btn-logout"
+        >
+          <span class="material-symbols-outlined align-bottom me-2">
+            logout </span
+          >登出
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>

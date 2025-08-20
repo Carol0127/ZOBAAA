@@ -1,0 +1,27 @@
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+
+  img {
+    height: 38px;
+  }
+  @media (min-width: 992px) {
+    img {
+      height: 156px;
+    }
+  }
+}
+
+.marquee-content {
+  display: inline-flex;
+  animation: marquee-scroll 15s linear infinite;
+}
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-150%);
+  }
+}

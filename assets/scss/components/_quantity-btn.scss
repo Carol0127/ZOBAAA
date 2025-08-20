@@ -1,0 +1,59 @@
+/* 容器樣式 */
+.quantity-selector-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quantity-selector {
+  max-width: 204px;
+}
+
+/* 數量輸入框樣式 */
+.quantity-input {
+  /* 移除預設的邊框和背景 */
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px; /* 數字大小 */
+  color: $black; /* 數字顏色 */
+}
+
+/* 移除 Bootstrap 的表單焦點效果 */
+.form-control:focus {
+  outline: 0;
+  box-shadow: none;
+  border-color: none;
+}
+
+/* 數量按鈕樣式 */
+.quantity-btn {
+  /* 讓按鈕變成圓形 */
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+
+  /* 調整邊框顏色和文字顏色 */
+  border: 1px solid #ddd;
+  color: #555;
+
+  /* 移除 Bootstrap 的外框樣式 */
+  box-shadow: none;
+
+  /* 內部 flexbox 讓 +/- 符號置中 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* 過渡效果讓 hover 時更平滑 */
+  transition: all 0.2s ease-in-out;
+}
+
+/* 按鈕 hover 效果 */
+.quantity-btn:hover {
+  background-color: $primary-10;
+  border-color: #aaa;
+}

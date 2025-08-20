@@ -1,0 +1,29 @@
+.btn {
+  border-radius: 12px;
+}
+
+.btn-sm {
+  padding: 12px 16px;
+}
+
+.btn-lg {
+  padding: 16px 32px;
+  font-size: 16px;
+}
+
+.btn.btn-lg:hover {
+  background-color: $primary-120;
+}
+
+.btn:hover {
+  background-color: $primary;
+  color: white !important;
+}
+
+.btn-love {
+  border: none;
+  background: none;
+  :hover {
+    background-color: $primary;
+  }
+}

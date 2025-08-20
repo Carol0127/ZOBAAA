@@ -1,0 +1,72 @@
+.travel-card-group {
+  .swiper-slide {
+    width: 306px;
+  }
+
+  .travel-card {
+    width: 100%;
+    height: 419px;
+  }
+
+  .travel-card-img-container {
+    width: 100%;
+    height: 212px;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease-in-out;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  h4 {
+    min-height: 3em;
+  }
+
+  .travel-custom-prev,
+  .travel-custom-next {
+    display: none;
+
+    @media (min-width: 1200px) {
+      display: flex;
+      position: absolute;
+      top: 50%;
+      font-size: 24px;
+      font-weight: bold;
+      color: $primary;
+      padding: 16px;
+      border-radius: 12px;
+    }
+  }
+
+  .travel-custom-prev,
+  .travel-custom-next {
+    display: none;
+    @media (min-width: 1200px) {
+      display: flex;
+      position: absolute;
+      top: 50%;
+      font-size: 24px;
+      font-weight: bold;
+      color: $primary;
+      padding: 16px;
+      border-radius: 12px;
+    }
+  }
+
+  .travel-custom-prev {
+    left: -80px;
+  }
+
+  .travel-custom-next {
+    right: -80px;
+  }
+}

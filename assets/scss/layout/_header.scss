@@ -1,0 +1,56 @@
+/* 手機 (lg 以下) 預設純白背景 */
+.navbar {
+  background-color: white;
+  border-bottom: none;
+}
+
+/* 桌機 (lg 以上) 預設透明 */
+@media (min-width: 992px) {
+  .navbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+  }
+  .navbar.scrolled {
+    background-color: rgba(255, 255, 255, 0.72);
+    border-bottom: 0.5px solid $neutral-40;
+    backdrop-filter: blur(8px);
+  }
+}
+
+.login-canvas.offcanvas.offcanvas-end {
+  width: 327px;
+}
+
+.cart-tag {
+  width: 16px;
+  height: 16px;
+  line-height: 1.333;
+}
+
+.search-lineheight {
+  line-height: 0.83;
+}
+
+.logo-img {
+  height: 30px;
+  width: 180px;
+}
+
+.navbar-lg-search {
+  width: 400px;
+}
+
+.user-img {
+  height: 32px;
+  width: 32px;
+}
+
+.password-eye {
+  border: none;
+  color: rgba(144, 144, 144, 1);
+  background-color: white;
+  margin-right: 16px;
+  :hover {
+    color: $primary;
+  }
+}
