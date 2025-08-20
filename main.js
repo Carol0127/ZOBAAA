@@ -1,3 +1,6 @@
+import "./assets/scss/all.scss";
+import "bootstrap/dist/js/bootstrap.min.js";
+
 document.addEventListener("DOMContentLoaded", function () {
   // --- 通用的卡片滑鼠互動函式 ---
   function setupSlideHoverEffect(slides, activeIndex) {
