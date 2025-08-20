@@ -60,6 +60,7 @@
   border-radius: 32px;
   backdrop-filter: blur(8px);
 }
+
 .index-lg-search {
   max-width: 343px;
   input {
@@ -73,9 +74,9 @@
     padding-top: 212px;
   }
   .index-lg-search {
-    width: 720px;
+    max-width: 720px;
     input {
-      width: 728px;
+      max-width: 728px;
     }
   }
 }
