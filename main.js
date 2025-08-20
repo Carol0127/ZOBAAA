@@ -1,6 +1,3 @@
-import "./assets/scss/all.scss";
-import "bootstrap/dist/js/bootstrap.min.js";
-
 document.addEventListener("DOMContentLoaded", function () {
   // --- 通用的卡片滑鼠互動函式 ---
   function setupSlideHoverEffect(slides, activeIndex) {
@@ -434,25 +431,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-//展開更多效果
-document.addEventListener("DOMContentLoaded", function () {
-  const expandBtn = document.getElementById("expand-more-btn");
-  const contentWrapper = document.querySelector(".content-wrapper");
-
-  if (expandBtn && contentWrapper) {
-    expandBtn.addEventListener("click", function () {
-      // 切換 .content-wrapper 的 expanded 類別
-      contentWrapper.classList.toggle("expanded");
-
-      // 根據當前狀態切換按鈕文字
-      if (contentWrapper.classList.contains("expanded")) {
-        expandBtn.textContent = "收起內容";
-      } else {
-        expandBtn.textContent = "展開更多";
-      }
-    });
-  }
-});
 document.addEventListener("DOMContentLoaded", function () {
   const expandBtn = document.getElementById("expand-more-btn");
   const contentWrapper = document.querySelector(".content-wrapper");
