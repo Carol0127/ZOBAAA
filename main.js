@@ -132,6 +132,22 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+  // --- 5. 登入彈窗的輪播設定 ---
+  // 這個輪播在大型螢幕上顯示
+  const swiperLogin = new Swiper(".login-cover-group .swiper", {
+    direction: "horizontal",
+    loop: true,
+    effect: "fade", // 讓輪播效果更平順，圖片會淡入淡出
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".login-pagination",
+      clickable: true,
+    },
+  });
+
   // 在 DOM 載入後和視窗大小改變時都呼叫這個函式
   document.addEventListener("DOMContentLoaded", initSwiperLocation);
   window.addEventListener("resize", initSwiperLocation);
